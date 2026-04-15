@@ -1,4 +1,4 @@
-contentId,titleId,platform,distribution,content_type,store,store_region,region
+content_id,title_id,platform,distribution,content_type,store,store_region,region
 EP0001-NPEB00435_00-BEYONDGANDETRIAL,NPEB00435,PS3,PSN,DEMO,EP0001,EP,EUROPE
 EP0001-NPEB00463_00-OUTLAND0DEMO0001,NPEB00463,PS3,PSN,DEMO,EP0001,EP,EUROPE
 EP0001-NPEB00466_00-FROMDUSTTRIAL001,NPEB00466,PS3,PSN,DEMO,EP0001,EP,EUROPE

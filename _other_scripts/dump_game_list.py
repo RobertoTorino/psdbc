@@ -37,8 +37,8 @@ def run():
                     continue
 
                 rows.append({
-                    "titleId": cols.nth(0).inner_text().strip(),
-                    "contentId": cols.nth(1).inner_text().strip(),
+                    "title_id": cols.nth(0).inner_text().strip(),
+                    "content_id": cols.nth(1).inner_text().strip(),
                     "name": cols.nth(2).inner_text().strip()
                 })
 

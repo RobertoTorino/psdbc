@@ -1,25 +1,32 @@
+from pathlib import Path
 import pandas as pd
 
-MASTER_FILE = "ps3_master_final.csv"
-ALIGNED_FILE = "ps3_aligned.csv"
+BASE_DIR = Path(__file__).resolve().parent
+ROOT_DIR = BASE_DIR.parent.parent
 
-DISC_OUTPUT = "ps3_disc_games.csv"
-PSN_OUTPUT = "ps3_psn_games.csv"
-DLC_OUTPUT = "ps3_dlc.csv"
-DEMO_OUTPUT = "ps3_demo.csv"
-TRIAL_OUTPUT = "ps3_trial.csv"
-LICENSE_OUTPUT = "ps3_license.csv"
-THEME_OUTPUT = "ps3_theme.csv"
-AVATAR_OUTPUT = "ps3_avatar.csv"
+MASTER_FILE = BASE_DIR / "ps3_master_final.csv"
+ALIGNED_FILE = ROOT_DIR / "2.Normalized external data" / "psnstuff_dump" / "ps3" / "ps3.csv"
+OUTPUT_DIR = ROOT_DIR / "4.App-ready outputs" / "PS3"
+
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+DISC_OUTPUT = OUTPUT_DIR / "app_ps3_disc_games.csv"
+PSN_OUTPUT = OUTPUT_DIR / "app_ps3_psn_games.csv"
+DLC_OUTPUT = OUTPUT_DIR / "app_ps3_dlc.csv"
+DEMO_OUTPUT = OUTPUT_DIR / "app_ps3_demo.csv"
+TRIAL_OUTPUT = OUTPUT_DIR / "app_ps3_trial.csv"
+LICENSE_OUTPUT = OUTPUT_DIR / "app_ps3_license.csv"
+THEME_OUTPUT = OUTPUT_DIR / "app_ps3_theme.csv"
+AVATAR_OUTPUT = OUTPUT_DIR / "app_ps3_avatar.csv"
 
 
 BASE_COLUMNS = [
-    "titleId",
-    "gameTitle",
+    "title_id",
+    "game_title",
     "platform_source",
-    "region_source",
+    "region",
     "url",
-    "contentId",
+    "content_id",
     "has_content_id",
     "platform",
     "distribution",
@@ -29,12 +36,12 @@ BASE_COLUMNS = [
 ]
 
 AUX_COLUMNS = [
-    "titleId",
-    "gameTitle",
+    "title_id",
+    "game_title",
     "platform_source",
-    "region_source",
+    "region",
     "url",
-    "contentId",
+    "content_id",
     "has_content_id",
     "platform",
     "distribution",
@@ -47,15 +54,18 @@ AUX_COLUMNS = [
 def norm_df(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
     df.columns = [str(c).strip() for c in df.columns]
+
     for c in df.columns:
         df[c] = df[c].fillna("").astype(str).str.strip()
-    if "titleId" in df.columns:
-        df["titleId"] = (
-            df["titleId"]
+
+    if "title_id" in df.columns:
+        df["title_id"] = (
+            df["title_id"]
             .str.upper()
             .str.replace("-", "", regex=False)
             .str.strip()
         )
+
     return df
 
 
@@ -67,7 +77,16 @@ def ensure_columns(df: pd.DataFrame, columns: list[str]) -> pd.DataFrame:
     return df[columns].copy()
 
 
+def save_sorted(df: pd.DataFrame, output_file: Path) -> None:
+    df = df.drop_duplicates().sort_values(["title_id", "content_id"], kind="stable")
+    df.to_csv(output_file, index=False)
+    print(f"Saved {output_file} ({len(df)} rows)")
+
+
 print("Reading files...")
+print(f"MASTER_FILE: {MASTER_FILE}")
+print(f"ALIGNED_FILE: {ALIGNED_FILE}")
+print(f"OUTPUT_DIR: {OUTPUT_DIR}")
 
 master_df = pd.read_csv(MASTER_FILE, dtype=str).fillna("")
 aligned_df = pd.read_csv(ALIGNED_FILE, dtype=str).fillna("")
@@ -95,28 +114,19 @@ psn_df = master_df[
     (master_df["content_type"] == "BASE_GAME")
     ].copy()
 
-disc_df = disc_df.drop_duplicates().sort_values(["titleId", "contentId"], kind="stable")
-psn_df = psn_df.drop_duplicates().sort_values(["titleId", "contentId"], kind="stable")
-
-disc_df.to_csv(DISC_OUTPUT, index=False)
-psn_df.to_csv(PSN_OUTPUT, index=False)
-
-print(f"Saved {DISC_OUTPUT} ({len(disc_df)} rows)")
-print(f"Saved {PSN_OUTPUT} ({len(psn_df)} rows)")
+save_sorted(disc_df, DISC_OUTPUT)
+save_sorted(psn_df, PSN_OUTPUT)
 
 # -------------------------
 # Auxiliary tables from aligned dump
 # -------------------------
 aligned_df = aligned_df[aligned_df["platform"] == "PS3"].copy()
 aligned_df = ensure_columns(aligned_df, AUX_COLUMNS)
+aligned_df["has_content_id"] = aligned_df["content_id"].ne("").map({True: "YES", False: "NO"})
 
-aligned_df["has_content_id"] = aligned_df["contentId"].ne("").map({True: "YES", False: "NO"})
-
-def save_aux(content_type: str, output_file: str):
+def save_aux(content_type: str, output_file: Path) -> None:
     part = aligned_df[aligned_df["content_type"] == content_type].copy()
-    part = part.drop_duplicates().sort_values(["titleId", "contentId"], kind="stable")
-    part.to_csv(output_file, index=False)
-    print(f"Saved {output_file} ({len(part)} rows)")
+    save_sorted(part, output_file)
 
 save_aux("DLC", DLC_OUTPUT)
 save_aux("DEMO", DEMO_OUTPUT)

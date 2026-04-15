@@ -1,4 +1,4 @@
-contentId,titleId,platform,distribution,content_type,store,store_region,region
+content_id,title_id,platform,distribution,content_type,store,store_region,region
 EP0082-NPEB02197_00-LISBUNDLETHEME01,NPEB02197,PS3,PSN,THEME,EP0082,EP,EUROPE
 EP0082-NPEB02197_00-LISSEASPASSTHEME,NPEB02197,PS3,PSN,THEME,EP0082,EP,EUROPE
 EP0102-NPEB00870_00-DSRTHEMERM000001,NPEB00870,PS3,PSN,THEME,EP0102,EP,EUROPE

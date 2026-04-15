@@ -1,4 +1,4 @@
-titleId,gameTitle,platform_source,region_source,url,contentId,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
+title_id,game_title,platform_source,region,url,content_id,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
 NPJA90173,Ape Escape Demo,Demo,JP,http://zeus.dl.playstation.net/cdn/JP9000/NPJA90173_00/xYhQBYfYVfydbLvXPRChVMLIwSbjiQnoCiRfNTepacYcuHyvzZMDeFNdtyjcELapmVamFZdBbmLLknSnLqzCyEpTMmRjlNrZhylKz.pkg,,NO,PSP,PSN,DEMO,NONE,
 NPUA70107,Beat Sketcher Demo,Demo,US,http://zeus.dl.playstation.net/cdn/UP9000/NPUA70107_00/QYVqQnLmvMbXYjPDHEwaXDllTTWVYNVcYvYZDBajfMQSeHVPhpGikSaoIRyTQTeXfWOzQYBCDtbidzEmTAWkcxsogmxJslHHUdYdh.pkg,,NO,PSP,PSN,DEMO,NONE,
 NPUH10029,Beta Bloc,PSP,US,http://zeus.dl.playstation.net/cdn/UP0367/NPUH10029_00/uRbR5jGT8yVTH8sLe6DL3033c9vaK7sddpHHln4diXTlxgdYyhqeH0wQb8lxwWuLoXx2Qf1r7RVvmeEnQaRKnjaFNwQSjvt8sAgul.pkg,,NO,PSP,PSN,DEMO,BETA_PROGRAM,NPUH10029

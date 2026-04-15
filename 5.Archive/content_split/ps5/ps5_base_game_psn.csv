@@ -1,4 +1,4 @@
-contentId,titleId,platform,distribution,content_type,store,store_region,region
+content_id,title_id,platform,distribution,content_type,store,store_region,region
 EP0001-PPSA01397_00-RAINBOWSIXSIEGE0,PPSA01397,PS5,PSN,BASE_GAME,EP0001,EP,PS5
 EP0001-PPSA01397_00-RB6SIEGESPDELU05,PPSA01397,PS5,PSN,BASE_GAME,EP0001,EP,PS5
 EP0001-PPSA01397_00-RB6SIEGESPGOLD05,PPSA01397,PS5,PSN,BASE_GAME,EP0001,EP,PS5

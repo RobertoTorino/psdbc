@@ -1,4 +1,4 @@
-titleId,gameTitle,platform_source,region_source,url,contentId,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
+title_id,game_title,platform_source,region,url,content_id,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
 CUSA03919,Plants Vs. Zombies: Garden Warfare 2 Beta,PS4,US,http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA03919_00/2/f_44692843f1260649d68884dac64a3cfb002e1b6a41b08cbf99444320ac795b57/f/UP0006-CUSA03919_00-PVZGW2BETAGAME00.json,,NO,PS4,PSN,DEMO,BETA_PROGRAM,CUSA03919
 CUSA04016,Plants Vs. Zombies: Garden Warfare 2 Beta,PS4,EU,http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA04016_00/6/f_403db4898079c3c91e20f2047bca5bbbad2300cbb296fc9305ed46030c1e0423/f/EP0006-CUSA04016_00-PVZGW2BETAGAME00.json,,NO,PS4,PSN,DEMO,BETA_PROGRAM,CUSA04016
 CUSA04030,Uncharted 4 - Beta,PS4,US,http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA04030_00/2/f_68081fa045709be28ddb6eaa27ffaea9d1e4b395033ef349db25775dc037659d/f/UP9000-CUSA04030_00-UNCHARTED4MPBETA.json,,NO,PS4,PSN,DEMO,BETA_PROGRAM,CUSA04030

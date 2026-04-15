@@ -1,4 +1,4 @@
-contentId,titleId,platform,distribution,content_type,store,store_region,region
+content_id,title_id,platform,distribution,content_type,store,store_region,region
 EP0101-CUSA01154_00-MGSVTUPDATEV0110,CUSA01154,PS4,PSN,UPDATE,EP0101,EP,PS4
 EP2377-CUSA09991_00-WUUPDATE00000000,CUSA09991,PS4,PSN,UPDATE,EP2377,EP,PS4
 HP0101-CUSA03579_00-MGSVTUPDATEV0110,CUSA03579,PS4,PSN,UPDATE,HP0101,HP,PS4

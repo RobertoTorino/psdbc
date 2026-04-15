@@ -1,4 +1,4 @@
-contentId,titleId,platform,distribution,content_type,store,store_region,region
+content_id,title_id,platform,distribution,content_type,store,store_region,region
 EP9000-UCES01421_00-AVAPATAP3BUNDLE1,UCES01421,PSP,UMD,BUNDLE,EP9000,EP,EUROPE
 EP9000-UCES01421_00-AVAPATAP3BUNDLE2,UCES01421,PSP,UMD,BUNDLE,EP9000,EP,EUROPE
 UP0102-ULUS10091_00-AVAMMPUPLSBUNDLE,ULUS10091,PSP,UMD,BUNDLE,UP0102,UP,USA

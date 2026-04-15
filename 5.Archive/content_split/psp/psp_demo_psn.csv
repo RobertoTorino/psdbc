@@ -1,4 +1,4 @@
-contentId,titleId,platform,distribution,content_type,store,store_region,region
+content_id,title_id,platform,distribution,content_type,store,store_region,region
 EP0776-NPEF00201_00-GPANDEMONI000001,NPEF00201,PSP,PSN,DEMO,EP0776,EP,EUROPE
 EP0776-NPEF00202_00-GPANDEMONI000001,NPEF00202,PSP,PSN,DEMO,EP0776,EP,EUROPE
 EP9000-NPEG90016_00-FFDISSIDIADEMO01,NPEG90016,PSP,PSN,DEMO,EP9000,EP,EUROPE

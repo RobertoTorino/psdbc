@@ -1,4 +1,4 @@
-contentId,titleId,platform,distribution,content_type,store,store_region,region
+content_id,title_id,platform,distribution,content_type,store,store_region,region
 EP0001-BLES00326_00-DLCDRM0000000004,BLES00326,PS3,DISC,DLC,EP0001,EP,EUROPE
 EP0001-BLES00330_00-TCLANCYHAWXDLC01,BLES00330,PS3,DISC,DLC,EP0001,EP,EUROPE
 EP0001-BLES00330_00-TCLANCYHAWXDLC02,BLES00330,PS3,DISC,DLC,EP0001,EP,EUROPE

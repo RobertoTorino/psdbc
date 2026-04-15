@@ -1,4 +1,4 @@
-titleId,gameTitle,platform_source,region_source,url,contentId,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
+title_id,game_title,platform_source,region,url,content_id,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
 BLUS30755,007 GoldenEye: Reloaded - Emilio Largo,DLC,US,http://zeus.dl.playstation.net/cdn/UP0002/BLUS30755_00/nDLrlSwjNszHkxDeCGeNmjGaVCKbHvRpzuhvxluHSOPWGUKBBlbFlYnKtxjncHuwpkzJYrIfuEkVDBDTisebFuFRkVdpZNuxNLHJc.pkg,UP0002-BLUS30755_00-BOND2011LARGDLC2,YES,PS3,PSN,DLC,NONE,
 BLUS30755,007 GoldenEye: Reloaded - Pussy Galore,DLC,US,http://zeus.dl.playstation.net/cdn/UP0002/BLUS30755_00/koSGIlSqGlcIQsmQngxFxAMUtQpYQVJHoTRujtKrgWEJPsyAVxSBjEdUOcGEFAFZNWCdPrggXRljiuXgDbWRFSDOjJVgJtnxoMvOX.pkg,UP0002-BLUS30755_00-BOND2011GALODLC3,YES,PS3,PSN,DLC,NONE,
 BLES01614,007 Legends - SKYFALL Pack 3 Mission Solo,DLC,EU,http://zeus.dl.playstation.net/cdn/EP0002/BLES01614_00/EPCIqUTUjtwxpVuHnsIsbiIqlasmRRqPwJFsfMcMByCaELanCcSHaOumyzFCKvMg.pkg,EP0002-BLES01614_00-007LEGENDSDLC001,YES,PS3,PSN,DLC,NONE,

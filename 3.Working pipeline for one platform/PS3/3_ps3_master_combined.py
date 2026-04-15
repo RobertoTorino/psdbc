@@ -16,9 +16,9 @@ def normalize_df(df: pd.DataFrame) -> pd.DataFrame:
     for c in df.columns:
         df[c] = norm(df[c])
 
-    if "titleId" in df.columns:
-        df["titleId"] = (
-            df["titleId"]
+    if "title_id" in df.columns:
+        df["title_id"] = (
+            df["title_id"]
             .str.upper()
             .str.replace("-", "", regex=False)
             .str.strip()
@@ -43,9 +43,9 @@ dump_df = normalize_df(dump_df)
 
 # Keep only the collection fields we actually care about
 collection_keep = [
-    "titleId",
-    "gameTitle",
-    "region_source",
+    "title_id",
+    "game-title",
+    "region",
     "url",
     "platform",
     "distribution",
@@ -60,11 +60,11 @@ col_df = col_df[collection_keep].copy()
 
 # Keep only the dump fields we actually care about
 dump_keep = [
-    "titleId",
-    "gameTitle",
-    "region_source",
+    "title_id",
+    "game_title",
+    "region",
     "url",
-    "contentId",
+    "content_id",
     "platform",
     "distribution",
     "content_type",
@@ -88,37 +88,37 @@ print(f"Collection rows: {len(col_df)}")
 print(f"PS3-only BASE_GAME dump rows: {len(dump_df)}")
 
 # Rename columns side-by-side
-col_df = col_df.rename(columns={c: f"col_{c}" for c in col_df.columns if c != "titleId"})
-dump_df = dump_df.rename(columns={c: f"dump_{c}" for c in dump_df.columns if c != "titleId"})
+col_df = col_df.rename(columns={c: f"col_{c}" for c in col_df.columns if c != "title_id"})
+dump_df = dump_df.rename(columns={c: f"dump_{c}" for c in dump_df.columns if c != "title_id"})
 
-# Choose one best dump row per titleId for inspection
-for c in ["dump_contentId", "dump_content_type", "dump_gameTitle", "dump_url"]:
+# Choose one best dump row per title_id for inspection
+for c in ["dump_content_id", "dump_content_type", "dump_game_title", "dump_url"]:
     if c not in dump_df.columns:
         dump_df[c] = ""
 
-dump_df["_has_content"] = dump_df["dump_contentId"].ne("").astype(int)
+dump_df["_has_content"] = dump_df["dump_content_id"].ne("").astype(int)
 dump_df["_is_base_game"] = dump_df["dump_content_type"].eq("BASE_GAME").astype(int)
-dump_df["_has_title"] = dump_df["dump_gameTitle"].ne("").astype(int)
+dump_df["_has_title"] = dump_df["dump_game_title"].ne("").astype(int)
 dump_df["_has_url"] = dump_df["dump_url"].ne("").astype(int)
 
 dump_df = (
     dump_df
     .sort_values(
-        ["titleId", "_has_content", "_is_base_game", "_has_title", "_has_url", "dump_contentId"],
+        ["title_id", "_has_content", "_is_base_game", "_has_title", "_has_url", "dump_content_id"],
         ascending=[True, False, False, False, False, True],
         kind="stable"
     )
-    .drop_duplicates(subset=["titleId"], keep="first")
+    .drop_duplicates(subset=["title_id"], keep="first")
     .drop(columns=["_has_content", "_is_base_game", "_has_title", "_has_url"])
 )
 
-merged = col_df.merge(dump_df, on="titleId", how="left")
+merged = col_df.merge(dump_df, on="title_id", how="left")
 
 # Final convenience columns
-merged["final_gameTitle"] = prefer(merged["col_gameTitle"], merged["dump_gameTitle"])
+merged["final_game_title"] = prefer(merged["col_game_title"], merged["dump_game_title"])
 merged["final_url"] = prefer(merged["col_url"], merged["dump_url"])
-merged["final_contentId"] = norm(merged["dump_contentId"])
-merged["final_has_content_id"] = merged["final_contentId"].ne("").map({True: "YES", False: "NO"})
+merged["final_content_id"] = norm(merged["dump_content_id"])
+merged["final_has_content_id"] = merged["final_content_id"].ne("").map({True: "YES", False: "NO"})
 
 merged["distribution_same"] = (
         (norm(merged["col_distribution"]) != "") &
@@ -133,15 +133,15 @@ merged["content_type_same"] = (
 ).map({True: "YES", False: "NO"})
 
 front_cols = [
-    "titleId",
-    "final_gameTitle",
+    "title_id",
+    "final_game_title",
     "final_url",
-    "final_contentId",
+    "final_content_id",
     "final_has_content_id",
-    "col_gameTitle",
-    "dump_gameTitle",
-    "col_region_source",
-    "dump_region_source",
+    "col_game_title",
+    "dump_game_title",
+    "col_region",
+    "dump_region",
     "col_platform",
     "dump_platform",
     "col_distribution",
@@ -161,7 +161,7 @@ remaining = [c for c in merged.columns if c not in existing_front]
 merged = merged[existing_front + remaining]
 
 merged = merged.drop_duplicates()
-merged = merged.sort_values(["titleId", "final_contentId"], kind="stable")
+merged = merged.sort_values(["title_id", "final_content_id"], kind="stable")
 
 merged.to_csv(OUTPUT_FILE, index=False)
 

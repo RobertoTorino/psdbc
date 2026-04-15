@@ -6,12 +6,12 @@ OUTPUT_FILE = "ps3_master_combined.csv"
 
 
 COMMON_COLUMNS = [
-    "titleId",
-    "gameTitle",
+    "title_id",
+    "game_title",
     "platform_source",
-    "region_source",
+    "region",
     "url",
-    "contentId",
+    "content_id",
     "has_content_id",
     "platform",
     "distribution",
@@ -47,33 +47,33 @@ for df in [col_df, dump_df]:
     df.columns = [str(c).strip() for c in df.columns]
     for c in df.columns:
         df[c] = norm(df[c])
-    df["titleId"] = df["titleId"].str.upper().str.replace("-", "", regex=False).str.strip()
+    df["title_id"] = df["title_id"].str.upper().str.replace("-", "", regex=False).str.strip()
 
 print(f"Collection rows: {len(col_df)}")
 print(f"Dump rows: {len(dump_df)}")
 
 # Rename dump columns to avoid collision
 dump_df = dump_df.rename(columns={
-    col: f"{col}_dump" for col in COMMON_COLUMNS if col != "titleId"
+    col: f"{col}_dump" for col in COMMON_COLUMNS if col != "title_id"
 })
 
-# Reduce dump to ONE row per titleId (critical!)
+# Reduce dump to ONE row per title_id (critical!)
 dump_df = (
     dump_df
-    .sort_values(["titleId", "contentId_dump"], kind="stable")
-    .drop_duplicates(subset=["titleId"])
+    .sort_values(["title_id", "content_id_dump"], kind="stable")
+    .drop_duplicates(subset=["title_id"])
 )
 
 print(f"Dump rows after dedupe: {len(dump_df)}")
 
 # Merge
-merged = col_df.merge(dump_df, on="titleId", how="left")
+merged = col_df.merge(dump_df, on="title_id", how="left")
 
 print(f"Merged rows: {len(merged)}")
 
 # Resolve columns
 for col in COMMON_COLUMNS:
-    if col == "titleId":
+    if col == "title_id":
         continue
 
     col_dump = f"{col}_dump"
@@ -84,7 +84,7 @@ for col in COMMON_COLUMNS:
     merged[col] = prefer(merged[col], merged[col_dump])
 
 # Recompute flags
-merged["has_content_id"] = merged["contentId"].ne("").map({True: "YES", False: "NO"})
+merged["has_content_id"] = merged["content_id"].ne("").map({True: "YES", False: "NO"})
 
 merged["matched"] = merged["has_content_id"]
 
@@ -97,7 +97,7 @@ merged["distribution_match"] = (
 # Final clean
 merged = merged[COMMON_COLUMNS].drop_duplicates()
 
-merged = merged.sort_values(["titleId", "contentId"], kind="stable")
+merged = merged.sort_values(["title_id", "content_id"], kind="stable")
 
 merged.to_csv(OUTPUT_FILE, index=False)
 

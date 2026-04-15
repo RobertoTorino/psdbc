@@ -4,12 +4,12 @@ INPUT_FILE = "ps3_master.csv"
 OUTPUT_FILE = "ps3_master_clean.csv"
 
 TARGET_COLUMNS = [
-    "titleId",
-    "gameTitle",
+    "title_id",
+    "game_title",
     "platform_source",
-    "region_source",
+    "region",
     "url",
-    "contentId",
+    "content_id",
     "has_content_id",
     "platform",
     "distribution",
@@ -35,7 +35,7 @@ print("Source columns:", df.columns.tolist())
 
 # Rename current master columns into aligned names
 rename_map = {
-    "collection_region": "region_source",
+    "collection_region": "region",
     "collection_distribution": "distribution",
 }
 
@@ -46,8 +46,8 @@ df = df.rename(columns=existing_renames)
 if "platform_source" not in df.columns:
     df["platform_source"] = "COLLECTION"
 
-# has_content_id derived from contentId
-df["has_content_id"] = df["contentId"].apply(lambda x: "YES" if str(x).strip() else "NO") if "contentId" in df.columns else "NO"
+# has_content_id derived from content_id
+df["has_content_id"] = df["content_id"].apply(lambda x: "YES" if str(x).strip() else "NO") if "content_id" in df.columns else "NO"
 
 # unlock fields not present in this file, but keep schema aligned
 if "unlock_model" not in df.columns:
@@ -77,9 +77,9 @@ for col in TARGET_COLUMNS:
 df = df[TARGET_COLUMNS]
 
 # Normalize some core fields
-df["titleId"] = df["titleId"].astype(str).str.upper().str.replace("-", "", regex=False).str.strip()
-df["gameTitle"] = df["gameTitle"].astype(str).str.strip()
-df["region_source"] = df["region_source"].astype(str).str.strip()
+df["title_id"] = df["title_id"].astype(str).str.upper().str.replace("-", "", regex=False).str.strip()
+df["game_title"] = df["game_title"].astype(str).str.strip()
+df["region"] = df["region"].astype(str).str.strip()
 df["url"] = df["url"].astype(str).str.strip()
 df["platform"] = df["platform"].astype(str).str.strip()
 df["distribution"] = df["distribution"].astype(str).str.strip()

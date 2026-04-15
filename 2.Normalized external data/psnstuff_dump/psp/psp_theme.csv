@@ -1,4 +1,4 @@
-titleId,gameTitle,platform_source,region_source,url,contentId,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
+title_id,game_title,platform_source,region,url,content_id,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
 NPJQ00036,130328TRMK001PS3 Theme 130328TRMK001PS3,Theme,JP,http://zeus.dl.playstation.net/cdn/JP9003/NPJQ00036_00/RQRESIWrjVgEoedteWbyLePfugEdiWsqVhFozZcittIfXUqgrKWtaTfXBiABytyTWEZXNuUjqYpxgkVInLMMzxTbeAvNbOuUYHVDA.pkg,,NO,PSP,PSN,THEME,NONE,
 NPEO00154,300 Dynamic Theme,Theme,EU,http://zeus.dl.playstation.net/cdn/EP9000/NPEO00154_00/DuvXWkRuBfUEwZbMCNsdxsiziZmjfogGOZWukqaGbMYlRcRhipwvLBmSTBawaJzC.pkg,EP9000-NPEO00154_00-300MOVDYN00000EN,YES,PSP,PSN,THEME,NONE,
 NPEO00154,300 Static Theme 1,Theme,EU,http://zeus.dl.playstation.net/cdn/EP9000/NPEO00154_00/lSheKkEklHQxxftoVUkIjjdvSWZiFdSlLhmLJJtTmMIwcSTEKKIoRCHGcPVsgruR.pkg,EP9000-NPEO00154_00-300MOV00000EN001,YES,PSP,PSN,THEME,NONE,

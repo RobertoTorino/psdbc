@@ -1,4 +1,4 @@
-titleId,gameTitle,platform_source,region_source,url,contentId,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
+title_id,game_title,platform_source,region,url,content_id,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
 NPUD21653,0,PS2,US,http://zeus.dl.playstation.net/cdn/UP9000/NPUD21653_00/znIPaFSliPJNtcrCguQrzOspswzNSbwQWVtUxqVfnGmdsggukHmqGEAZJBfyzWLG.pkg,UP9000-NPUD21653_00-0000000000000000,YES,PS2,DISC,BASE_GAME,NONE,
 NPJD00081,ADK,PS2,JP,http://zeus.dl.playstation.net/cdn/JP0576/NPJD00081_00/CwTXNrhjqCOOlZrzWbayqqxvICXnjrLwNfHHQuSVvEGSebDyjWEFXfVyTGFuzmmURwEnDGlCYRGulrOxyEpZFIRQVCvWxCRuWAIOQ.pkg,JP0576-NPJD00081_00-0000000000000000,YES,PS2,DISC,BASE_GAME,NONE,
 NPED00099,Baroque,PS2,EU,http://zeus.dl.playstation.net/cdn/EP4034/NPED00099_00/QKQTleDMTOVJqMlVASNatmufNgEMvbVJThDUoqMUwgqqYZraUhgYbFwZykaotMPz.pkg,EP4034-NPED00099_00-GBAROQUEXX000ENG,YES,PS2,DISC,BASE_GAME,NONE,

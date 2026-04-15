@@ -29,9 +29,9 @@ df = pd.read_csv(INPUT_FILE, sep="\t", dtype=str).fillna("")
 
 # Rename columns to cleaner schema
 df = df.rename(columns={
-    "GameId": "titleId",
+    "GameId": "title_id",
     "Region": "region",
-    "GameTitle": "gameTitle",
+    "GameTitle": "game_title",
     "URL": "url",
     "Eboot": "ebootPath",
     "Icon0": "icon0Path",

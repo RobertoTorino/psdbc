@@ -1,4 +1,4 @@
-contentId,titleId,platform,distribution,content_type,store,store_region,region
+content_id,title_id,platform,distribution,content_type,store,store_region,region
 EP0001-PPSA01490_00-EDITIONULTIMATE0,PPSA01490,PS5,PSN,BUNDLE,EP0001,EP,PS5
 EP0002-PPSA02050_00-CODCWULTIMATE001,PPSA02050,PS5,PSN,BUNDLE,EP0002,EP,PS5
 EP0006-PPSA01326_00-PS5LAUNCHBUNDLE0,PPSA01326,PS5,PSN,BUNDLE,EP0006,EP,PS5

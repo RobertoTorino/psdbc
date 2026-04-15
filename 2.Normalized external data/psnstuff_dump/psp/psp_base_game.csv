@@ -1,4 +1,4 @@
-titleId,gameTitle,platform_source,region_source,url,contentId,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
+title_id,game_title,platform_source,region,url,content_id,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
 NPUA80008,.detuned,PSN,US,http://zeus.dl.playstation.net/cdn/UP9000/NPUA80008_00/E3NjWOmPJjdQGYAc58xKJueh0lEeXUV0iyRsXXLkAUOjXicsXhFu06IJSaRu6U2TVPxeS06Bomi9dnwGh5dAYm17J6fHjwRRxd6JP.pkg,UP9000-NPUA80008_00-DETUNED000000001,YES,PSP,PSN,BASE_GAME,NONE,
 NPUZ00262,1000 Tiny Claws,Mini,US,http://zeus.dl.playstation.net/cdn/UP4131/NPUZ00262_00/GrUYzmEAfJrkJnPoZbuDCuNxedcqPOzTSnRZYDLtjfKCnBexwLxRnSYCfPzJXYyfuaIBPshWxTpJyPuvFMZWfmIrXsPtSOszktCtV.pkg,UP4131-NPUZ00262_00-1000TINYCLAWSXXX,YES,PSP,MINI,BASE_GAME,NONE,
 NPEZ00401,1000 Tiny Claws,Mini,EU,http://zeus.dl.playstation.net/cdn/EP4131/NPEZ00401_00/yOIMIiVzurYnTwoDPKfdDDBTOiHYmTFhwHdMYUaWtadvTJdpMcbhICDZXCHIeFIt.pkg,EP4131-NPEZ00401_00-1000TINYCLAWSXXX,YES,PSP,MINI,BASE_GAME,NONE,

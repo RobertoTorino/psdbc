@@ -1,4 +1,4 @@
-contentId,titleId,platform,distribution,content_type,store,store_region,region
+content_id,title_id,platform,distribution,content_type,store,store_region,region
 EP0001-NPEH00111_00-GPCBIPACKG000001,NPEH00111,PSP,PSN,DLC,EP0001,EP,EUROPE
 EP0001-NPEH00113_00-GPCBIPACKB000001,NPEH00113,PSP,PSN,DLC,EP0001,EP,EUROPE
 EP0001-NPEH00115_00-GPCBIPACKP000001,NPEH00115,PSP,PSN,DLC,EP0001,EP,EUROPE

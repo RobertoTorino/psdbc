@@ -1,4 +1,4 @@
-contentId,titleId,platform,distribution,content_type,store,store_region,region
+content_id,title_id,platform,distribution,content_type,store,store_region,region
 EP0001-CUSA00230_00-ASIATRIALSFUSION,CUSA00230,PS4,PSN,DEMO,EP0001,EP,PS4
 EP0001-CUSA00230_00-TRIALSFUSION0002,CUSA00230,PS4,PSN,DEMO,EP0001,EP,PS4
 EP0001-CUSA00230_00-TRIALSFUSION1111,CUSA00230,PS4,PSN,DEMO,EP0001,EP,PS4

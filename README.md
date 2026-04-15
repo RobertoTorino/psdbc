@@ -14,11 +14,11 @@ to be used in an SQLite database for an Android app.
 **Key Decisions:**                  
 1. Title IDs are NOT platform-exclusive
    Example: NPUZ00104 exists on both PSP and PS3
-   → Matching must be done on titleId only (not platform)
+   → Matching must be done on title_id only (not platform)
 
 2. Use normalized database design
    Avoid: "ID1 | ID2 | ID3"
-   Prefer: one row per contentId
+   Prefer: one row per content_id
 
 3. Separate concerns:
    - Our collection = source of truth (what you own)
@@ -35,7 +35,7 @@ to be used in an SQLite database for an Android app.
 **Pipeline:**              
 Step 1: Parse raw content IDs → content_ps3.csv, content_psp.csv, etc.
 Step 2: Enrich your own collection (DISC vs PSN detection)
-Step 3: Merge on titleId (cross-platform allowed)
+Step 3: Merge on title_id (cross-platform allowed)
 Step 4: Split into DISC / PSN / DLC
 
 **Key Rules:**             

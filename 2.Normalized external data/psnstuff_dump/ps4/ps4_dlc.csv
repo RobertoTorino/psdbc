@@ -1,4 +1,4 @@
-titleId,gameTitle,platform_source,region_source,url,contentId,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
+title_id,game_title,platform_source,region,url,content_id,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
 CUSA00010,Assassin's Creed IV: Black Flag - Aveline,DLC,US,http://gs2.ww.prod.dl.playstation.net/gs2/acpkgo/prod/CUSA00010_00/21/f_9e7b805cf4861f04778ae7afb9735e73b9fbc98bf6f811cc7ce16411b5ab16cb/f/UP0001-CUSA00010_00-ACAVELINEPACKDLC.pkg,,NO,PS4,PSN,DLC,NONE,
 CUSA00663,Assassin's Creed: Unity - Dead Kings - 0,DLC,US,http://gs2.ww.prod.dl.playstation.net/gs2/acpkgo/prod/CUSA00663_00/134/f_6b3962d93fd122a87c67ace9339dd3f7a5a0f0144b4ee49f1fe1e227fde1adb7/f/UP0001-CUSA00663_00-DLCUNDEADKINGS00_0.pkg,,NO,PS4,PSN,DLC,NONE,
 CUSA00605,Assassin's Creed: Unity - Dead Kings - 0,DLC,EU,http://gs2.ww.prod.dl.playstation.net/gs2/acpkgo/prod/CUSA00605_00/134/f_e53c32a6421506870df13fb6e7db936ffb7adfc1b94a3b458af76a3630907b62/f/EP0001-CUSA00605_00-DLCUNDEADKINGS00_0.pkg,,NO,PS4,PSN,DLC,NONE,

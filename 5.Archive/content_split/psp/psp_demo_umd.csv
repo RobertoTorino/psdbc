@@ -1,4 +1,4 @@
-contentId,titleId,platform,distribution,content_type,store,store_region,region
+content_id,title_id,platform,distribution,content_type,store,store_region,region
 UP9000-UCUS98677_00-SOCOMFTB2DEMOUMD,UCUS98677,PSP,UMD,DEMO,UP9000,UP,USA
 UP9000-UCUS98713_00-GODOFWARCOODEMO1,UCUS98713,PSP,UMD,DEMO,UP9000,UP,USA
 UP9000-UCUS98721_00-PATAPONPSNDEMO08,UCUS98721,PSP,UMD,DEMO,UP9000,UP,USA

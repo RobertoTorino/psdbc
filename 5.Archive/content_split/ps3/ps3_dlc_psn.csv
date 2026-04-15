@@ -1,4 +1,4 @@
-contentId,titleId,platform,distribution,content_type,store,store_region,region
+content_id,title_id,platform,distribution,content_type,store,store_region,region
 EP0001-NPEB00174_00-MMCOHDLC00000001,NPEB00174,PS3,PSN,DLC,EP0001,EP,EUROPE
 EP0001-NPEB00886_00-MADUNLOCKFULLKEY,NPEB00886,PS3,PSN,DLC,EP0001,EP,EUROPE
 EP0001-NPEB01979_00-ACBFDLCSPSA00001,NPEB01979,PS3,PSN,DLC,EP0001,EP,EUROPE

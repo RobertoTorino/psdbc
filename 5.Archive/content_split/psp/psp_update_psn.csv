@@ -1,4 +1,4 @@
-contentId,titleId,platform,distribution,content_type,store,store_region,region
+content_id,title_id,platform,distribution,content_type,store,store_region,region
 JP0048-NPJH50585_00-GAMEUPDATE000002,NPJH50585,PSP,PSN,UPDATE,JP0048,JP,JAPAN
 JP0117-NPJH50296_00-UPDATE0000000101,NPJH50296,PSP,PSN,UPDATE,JP0117,JP,JAPAN
 UP9000-NPHG00085_00-PATCHWORKHEROES0,NPHG00085,PSP,PSN,UPDATE,UP9000,UP,ASIA

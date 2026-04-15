@@ -1,4 +1,4 @@
-contentId,titleId,platform,distribution,content_type,store,store_region,region
+content_id,title_id,platform,distribution,content_type,store,store_region,region
 EP9000-NPUA80002_00-BFBUNDLE_CANADA_,NPUA80002,PSP,PSN,BUNDLE,EP9000,EP,USA
 ET0001-NPEP00026_00-APOCADREAMBUNDLE,NPEP00026,PSP,PSN,BUNDLE,ET0001,ET,EUROPE
 ET0001-NPEP00026_00-DBACCELERABUNDLE,NPEP00026,PSP,PSN,BUNDLE,ET0001,ET,EUROPE

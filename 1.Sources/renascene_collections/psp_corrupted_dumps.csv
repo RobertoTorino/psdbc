@@ -1,0 +1,10 @@
+type,game_title,region,title_id,corrupt_reason
+UMD,Blade Dancer: Qiannian Zhi Yaoding,AS,UCAS40064,rebuilt with umdgen v2.00
+PSN,Hammer Wars (v1.03),EU,NPEZ00142,ripped and rebuilt
+UMD,Aedis Memories: Shintenmakai GOCV,KO,ULKS46067,corrupted VOICE2.dat
+UMD,FIFA 07,KO,ULKS46113,corrupted dat_kor.big
+UMD,FIFA 10,KO,NPHH00061,overdump
+UMD,Lost Regnum: Makutsu no Koutei,KO,ULKS46138,corrupted MSG_SKILL.gim
+UMD,Shin Sangoku Musou 5 Special,KO,ULKS46222,overdump
+UMD,Win-TOEIC Beginners' RC,KO,ULKS46019,corrupted l_40.pmf
+UMD,Yuusha 30,KO,ULKS46234,overdump

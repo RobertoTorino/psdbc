@@ -1,4 +1,4 @@
-titleId,gameTitle,platform_source,region_source,url,contentId,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
+title_id,game_title,platform_source,region,url,content_id,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
 CUSA01134,Aaru's Awakening,PS4,EU,http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA01134_00/6/f_e6aeb799bc9bd70e603b8ce903e02254ed4cfd5922c5df88bfd923f2d31db7db/f/EP2144-CUSA01134_00-AARUSAWAKENINGE4.pkg,,NO,PS4,PSN,BASE_GAME,NONE,
 CUSA01162,Aaru's Awakening,PS4,US,http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA01162_00/7/f_71124d4445993b1227efe70184010daabc9a034d68780d572f13556c476afa63/f/UP2144-CUSA01162_00-AARUSAWAKENINGA4.json,,NO,PS4,PSN,BASE_GAME,NONE,
 CUSA00463,AirMech Arena,PS4,EU,http://gs2.ww.prod.dl.playstation.net/gs2/appkgo/prod/CUSA00463_00/2/f_71e4f62a860d31fab5e81ecd1639ec1ed91a88b61ca1d0a2d335a96fbfeb7186/f/EP0001-CUSA00463_00-AIRMECH000000001.pkg,,NO,PS4,PSN,BASE_GAME,NONE,

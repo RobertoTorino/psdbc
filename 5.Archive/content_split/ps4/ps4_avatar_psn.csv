@@ -1,4 +1,4 @@
-contentId,titleId,platform,distribution,content_type,store,store_region,region
+content_id,title_id,platform,distribution,content_type,store,store_region,region
 EP0001-CUSA02819_00-GRWAVATARBUNDLE0,CUSA02819,PS4,PSN,AVATAR,EP0001,EP,PS4
 EP0001-CUSA04206_00-ASIAAVATARBUNDLE,CUSA04206,PS4,PSN,AVATAR,EP0001,EP,PS4
 EP0001-CUSA04206_00-TBDAVATARBUNDLE1,CUSA04206,PS4,PSN,AVATAR,EP0001,EP,PS4

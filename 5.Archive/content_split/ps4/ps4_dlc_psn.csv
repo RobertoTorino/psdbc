@@ -1,4 +1,4 @@
-contentId,titleId,platform,distribution,content_type,store,store_region,region
+content_id,title_id,platform,distribution,content_type,store,store_region,region
 EP0001-CUSA00009_00-ACAVELINEPACKDLC,CUSA00009,PS4,PSN,DLC,EP0001,EP,PS4
 EP0001-CUSA00009_00-ACBFDLCSP0000001,CUSA00009,PS4,PSN,DLC,EP0001,EP,PS4
 EP0001-CUSA00009_00-ACBFMICRODLC0002,CUSA00009,PS4,PSN,DLC,EP0001,EP,PS4

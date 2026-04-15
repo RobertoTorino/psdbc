@@ -1,4 +1,4 @@
-contentId,titleId,platform,distribution,content_type,store,store_region,region
+content_id,title_id,platform,distribution,content_type,store,store_region,region
 EP0001-NPEP00037_00-AC2MASTERTHEME00,NPEP00037,PSP,PSN,THEME,EP0001,EP,EUROPE
 EP0001-NPEP00085_00-ACBTHEME00000001,NPEP00085,PSP,PSN,THEME,EP0001,EP,EUROPE
 EP0001-NPEP00161_00-GRFSTHEME0000001,NPEP00161,PSP,PSN,THEME,EP0001,EP,EUROPE

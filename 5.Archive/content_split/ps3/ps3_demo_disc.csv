@@ -1,4 +1,4 @@
-contentId,titleId,platform,distribution,content_type,store,store_region,region
+content_id,title_id,platform,distribution,content_type,store,store_region,region
 EP0001-BLES01384_00-MPDLCTRIAL000002,BLES01384,PS3,DISC,DEMO,EP0001,EP,EUROPE
 EP0006-BLES00228_00-RBRUDEMOOCCF01F3,BLES00228,PS3,DISC,DEMO,EP0006,EP,EUROPE
 EP0006-BLES01636_00-MOHWSCDEMO000000,BLES01636,PS3,DISC,DEMO,EP0006,EP,EUROPE

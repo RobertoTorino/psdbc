@@ -1,4 +1,4 @@
-titleId,gameTitle,platform_source,region_source,url,contentId,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
+title_id,game_title,platform_source,region,url,content_id,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
 PCSB00963,10 Second Ninja X,PSVita,EU,http://zeus.dl.playstation.net/cdn/EP4395/PCSB00963_00/EP4395-PCSB00963_00-G000000000000885_bg_1_c0400230f1dcc3f446d2e455e4d2ccff5723ab13.pkg,EP4395-PCSB00963_00-G000000000000885,YES,PSVITA,CARD,BASE_GAME,NONE,
 PCSB00955,A Virus Named TOM,PSVita,EU,http://zeus.dl.playstation.net/cdn/EP1920/PCSB00955_00/EP1920-PCSB00955_00-G000000000000877_bg_1_9a0c05b45b2ec138e94ff684250f17cabf9e9d19.pkg,EP1920-PCSB00955_00-G000000000000877,YES,PSVITA,CARD,BASE_GAME,NONE,
 PCSB00858,Actual Sunlight,PSVita,EU,http://zeus.dl.playstation.net/cdn/EP0760/PCSB00858_00/EP0760-PCSB00858_00-1234567812345678_bg_1_7cfbddc06539702b74cc7e6e6d2f64820f0a8716.pkg,EP0760-PCSB00858_00-1234567812345678,YES,PSVITA,CARD,BASE_GAME,NONE,

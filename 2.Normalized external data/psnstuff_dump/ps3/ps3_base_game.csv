@@ -1,4 +1,4 @@
-titleId,gameTitle,platform_source,region_source,url,contentId,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
+title_id,game_title,platform_source,region,url,content_id,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
 NPEA00137,.DETUNED,PSN,EU,http://zeus.dl.playstation.net/cdn/EP9000/NPEA00137_00/109CtlbNdCqJrAo4X04u1a1n1qwDc9QceQ4pyRxT45s9ab0IlbbfFRNL8UjBorVe1XbpO95ALqsUG9NG1QWfX7pI5s7TsvlYXrg0n.pkg,EP9000-NPEA00137_00-DETUNED000000001,YES,PS3,PSN,BASE_GAME,NONE,
 NPEA00122,10200,PSN,EU,http://zeus.dl.playstation.net/cdn/EP9000/NPEA00122_00/5AWeqlXQjnbXjfxfqvQ8fuXxTjph5HwDDcUrITelO3S67LbBApsLWMDhjOVPhvLxHqKprKE7yk193ybCQVN6UFnvp8CwQlQ7qcleQ.pkg,,NO,PS3,PSN,BASE_GAME,NONE,
 NPEA00186,000000GOWMETALEP,PSN,EU,http://zeus.dl.playstation.net/cdn/EP9000/NPEA00186_00/fPh3wF22RvnfgNLlLuk6tDberk03QgnO02cu3YhXek5L8HcB8naiWKM6dsypOyoTv8M37lSHy6RAkvfPsadxysWUUCSVh0WPhPFIH.pkg,EP9000-NPEA00186_00-000000GOWMETALEP,YES,PS3,PSN,BASE_GAME,NONE,

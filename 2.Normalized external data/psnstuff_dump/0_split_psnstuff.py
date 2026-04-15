@@ -188,26 +188,26 @@ print("Reading dump...")
 df = pd.read_csv(INPUT_FILE, sep=INPUT_SEP, dtype=str).fillna("")
 df.columns = [str(c).strip() for c in df.columns]
 
-required = {"titleId", "gameTitle", "platform", "region", "url", "contentId"}
+required = {"title_id", "game_title", "platform", "region", "url", "content_id"}
 missing = required - set(df.columns)
 if missing:
     raise ValueError(f"Missing required columns: {sorted(missing)}")
 
 # Normalize source columns
-df["titleId"] = df["titleId"].apply(normalize_title_id)
-df["gameTitle"] = df["gameTitle"].apply(normalize_text)
+df["title_id"] = df["title_id"].apply(normalize_title_id)
+df["game_title"] = df["game_title"].apply(normalize_text)
 df["platform_source"] = df["platform"].apply(normalize_text)
-df["region_source"] = df["region"].apply(normalize_text)
+df["region"] = df["region"].apply(normalize_text)
 df["url"] = df["url"].apply(normalize_text)
-df["contentId"] = df["contentId"].apply(normalize_text)
-df["has_content_id"] = df["contentId"].apply(lambda x: "YES" if str(x).strip() else "NO")
+df["content_id"] = df["content_id"].apply(normalize_text)
+df["has_content_id"] = df["content_id"].apply(lambda x: "YES" if str(x).strip() else "NO")
 
 # Remove misleading raw columns from final output
 df = df.drop(columns=["platform", "region"])
 
 # Normalize to final model
 mapped = df.apply(
-    lambda r: map_row(r["platform_source"], r["titleId"], r["gameTitle"]),
+    lambda r: map_row(r["platform_source"], r["title_id"], r["game_title"]),
     axis=1,
     result_type="expand"
 )
@@ -216,7 +216,7 @@ df = pd.concat([df, mapped], axis=1)
 
 # Add unlock metadata
 unlock_info = df.apply(
-    lambda r: infer_unlock_model(r["platform_source"], r["titleId"], r["gameTitle"]),
+    lambda r: infer_unlock_model(r["platform_source"], r["title_id"], r["game_title"]),
     axis=1,
     result_type="expand"
 )
@@ -225,12 +225,12 @@ df = pd.concat([df, unlock_info], axis=1)
 
 # Consistent column order across all platform exports
 final_columns = [
-    "titleId",
-    "gameTitle",
+    "title_id",
+    "game_title",
     "platform_source",
-    "region_source",
+    "region",
     "url",
-    "contentId",
+    "content_id",
     "has_content_id",
     "platform",
     "distribution",

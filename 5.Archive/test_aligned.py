@@ -15,8 +15,8 @@ df.columns = [str(c).strip() for c in df.columns]
 for c in df.columns:
     df[c] = norm(df[c])
 
-df["titleId"] = (
-    df["titleId"]
+df["title_id"] = (
+    df["title_id"]
     .str.upper()
     .str.replace("-", "", regex=False)
     .str.strip()
@@ -39,17 +39,17 @@ print("\n--- CONTENT TYPE x DISTRIBUTION ---")
 print(pd.crosstab(ps3["content_type"], ps3["distribution"]))
 
 print("\n--- HAS CONTENT ID ---")
-ps3["has_content_id"] = ps3["contentId"].ne("").map({True: "YES", False: "NO"})
+ps3["has_content_id"] = ps3["content_id"].ne("").map({True: "YES", False: "NO"})
 print(ps3["has_content_id"].value_counts(dropna=False))
 
 print("\n--- SAMPLE BASE_GAME (first 10) ---")
 print(ps3[ps3["content_type"] == "BASE_GAME"].head(10)[[
-    "titleId", "gameTitle", "distribution", "contentId"
+    "title_id", "game_title", "distribution", "content_id"
 ]])
 
 print("\n--- SAMPLE NON-BASE_GAME (first 10) ---")
 print(ps3[ps3["content_type"] != "BASE_GAME"].head(10)[[
-    "titleId", "gameTitle", "content_type", "distribution"
+    "title_id", "game_title", "content_type", "distribution"
 ]])
 
 print("\nDone.")

@@ -1,4 +1,4 @@
-titleId,gameTitle,platform_source,region_source,url,contentId,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
+title_id,game_title,platform_source,region,url,content_id,has_content_id,platform,distribution,content_type,unlock_model,unlock_group
 NPEB00080,3 on 3 NHL Arcade,C00,EU,http://zeus.dl.playstation.net/cdn/EP0006/NPEB00080_00/A7D6APEPmsoH3FhqG7BcRI23awIHofjdL0krkqXWdHULkLmX3HHnnRiM3ndO7JJJB4gwI7kbcPP9eUohCvSgRyQw9YntB7xcayLUm.pkg,,NO,PS3,PSN,TRIAL,TRIAL_UNLOCKABLE,NPEB00080
 NPUB30058,3 on 3 NHL Arcade,C00,US,http://zeus.dl.playstation.net/cdn/UP0006/NPUB30058_00/kljSpLyFOKIfbG9diNkpsHsG0LAk6PFfWcbVNHhokb8LXwktcGdh6puQ6pAmDLonXcxk158FjLGUbvlBQrUislRlKyr9jrp7adhpV.pkg,UP0006-NPUB30058_00-3ON3NHLARCADE002,YES,PS3,PSN,TRIAL,TRIAL_UNLOCKABLE,NPUB30058
 NPJB00019,3 on 3 NHL Arcade,C00,JP,http://zeus.dl.playstation.net/cdn/JP0006/NPJB00019_00/Wc04rVdVtVtAWjpTj4OWofRP7hINd1ugAEAQbQsD3H8dlPMWxFlXK40iBCCob6E3eWTNmkXI3CGMORSpiIVuFYoQfNmw7Ikqh0cnf.pkg,,NO,PS3,PSN,TRIAL,TRIAL_UNLOCKABLE,NPJB00019

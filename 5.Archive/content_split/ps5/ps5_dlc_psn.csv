@@ -1,4 +1,4 @@
-contentId,titleId,platform,distribution,content_type,store,store_region,region
+content_id,title_id,platform,distribution,content_type,store,store_region,region
 EP0001-PPSA01490_00-EXPANSIONPASS000,PPSA01490,PS5,PSN,DLC,EP0001,EP,PS5
 EP0001-PPSA01490_00-STOREPACKBUNDLE0,PPSA01490,PS5,PSN,DLC,EP0001,EP,PS5
 EP0001-PPSA01506_00-ADVPACK000000000,PPSA01506,PS5,PSN,DLC,EP0001,EP,PS5

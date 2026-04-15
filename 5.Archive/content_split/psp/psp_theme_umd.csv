@@ -1,4 +1,4 @@
-contentId,titleId,platform,distribution,content_type,store,store_region,region
+content_id,title_id,platform,distribution,content_type,store,store_region,region
 UP0101-ULUS10277_00-CVTDXCTHEME00001,ULUS10277,PSP,UMD,THEME,UP0101,UP,USA
 UP0101-ULUS10509_00-MGSPWTHEME000001,ULUS10509,PSP,UMD,THEME,UP0101,UP,USA
 UP0776-ULUS10110_00-TOMBLEGENDTHEME1,ULUS10110,PSP,UMD,THEME,UP0776,UP,USA
