@@ -1,0 +1,29 @@
+DATABASE STATISTICS REPORT (Total Items: 1441)
+==================================================
+
+ UNIQUE TYPES (1 total):
+ - MULTIPLE_CHOICE: 1441
+
+UNIQUE CATEGORIES (10 total):
+ - PS5: 201
+ - PS3: 199
+ - PS2: 195
+ - PSP: 195
+ - PSVITA: 195
+ - PS4: 194
+ - PS1: 193
+ - DIALOGUE: 26
+ - CONTROLLERS: 22
+ - GENERAL: 21
+
+UNIQUE ID PREFIXES (10 total):
+ - ps5: 201
+ - ps3: 199
+ - ps2: 195
+ - psp: 195
+ - psv: 195
+ - ps4: 194
+ - ps1: 193
+ - dlg: 26
+ - ctrl: 22
+ - gen: 21

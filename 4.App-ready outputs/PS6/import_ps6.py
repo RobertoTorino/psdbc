@@ -8,7 +8,6 @@ CSV_FILE = Path(r"C:\development\Python\psdbc\4.App-ready outputs\PS6\app_ps6_al
 FINAL_COLUMNS = [
     "title_id",
     "game_title",
-    "platform_source",
     "region",
     "version",
     "url",
@@ -36,10 +35,9 @@ cur = conn.cursor()
 cur.executescript("""
                   DROP TABLE IF EXISTS PS6_GAMES;
 
-                  CREATE TABLE PS6_GAMES (
+                  CREATE TABLE PS6 (
                                              title_id TEXT,
                                              game_title TEXT,
-                                             platform_source TEXT,
                                              region TEXT,
                                              version TEXT,
                                              url TEXT,
@@ -49,15 +47,15 @@ cur.executescript("""
                                              content_type TEXT
                   );
 
-                  CREATE INDEX idx_ps6_games_title_id ON PS6_GAMES(title_id);
-                  CREATE INDEX idx_ps6_games_content_id ON PS6_GAMES(content_id);
-                  CREATE INDEX idx_ps6_games_content_type ON PS6_GAMES(content_type);
-                  CREATE INDEX idx_ps6_games_distribution ON PS6_GAMES(distribution);
+                  CREATE INDEX idx_ps6_title_id ON PS6(title_id);
+                  CREATE INDEX idx_ps6_content_id ON PS6(content_id);
+                  CREATE INDEX idx_ps6_content_type ON PS6(content_type);
+                  CREATE INDEX idx_ps6_distribution ON PS6(distribution);
                   """)
 
 df.to_sql("PS4_GAMES", conn, if_exists="append", index=False)
 
-count = cur.execute("SELECT COUNT(*) FROM PS6_GAMES").fetchone()[0]
+count = cur.execute("SELECT COUNT(*) FROM PS6").fetchone()[0]
 print(f"Inserted rows: {count}")
 
 conn.commit()

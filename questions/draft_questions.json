@@ -1,0 +1,452 @@
+[
+  {
+    "id": "",
+    "text": "Which official controller was bundled with the PlayStation 2 at launch?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["DualShock 2", "DualSense", "SIXAXIS", "DualShock 4"],
+    "correctAnswer": "DualShock 2",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "What was the main new feature of the original DualShock controller compared with the original PlayStation controller?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Vibration feedback", "A touch pad", "A built-in microphone", "Adaptive triggers"],
+    "correctAnswer": "Vibration feedback",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which PlayStation controller was the first official PlayStation controller with two analog sticks?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Dual Analog Controller", "DualShock 4", "SIXAXIS", "DualSense Edge"],
+    "correctAnswer": "Dual Analog Controller",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "What did the original PlayStation controller not have?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Analog sticks", "Triangle button", "Circle button", "D-pad"],
+    "correctAnswer": "Analog sticks",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which official PlayStation peripheral was intended for point-and-click games on the original PlayStation?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["PlayStation Mouse", "PlayStation Eye", "DualShock 3", "PS VR Aim Controller"],
+    "correctAnswer": "PlayStation Mouse",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which Japan-only PlayStation peripheral doubled as a memory card and a small handheld device?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["PocketStation", "PlayStation Portal", "PS Vita TV", "PSP Go"],
+    "correctAnswer": "PocketStation",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "What was the official PS2 memory card capacity most commonly associated with the console?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["8 MB", "128 KB", "1 GB", "32 GB"],
+    "correctAnswer": "8 MB",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which official PS2 camera allowed players to use body movement in compatible games?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["EyeToy", "PlayStation Eye", "HD Camera", "PlayStation Camera"],
+    "correctAnswer": "EyeToy",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "What was the purpose of the official PS2 Multitap accessory?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["To connect more controllers", "To add wireless internet", "To improve graphics", "To play Blu-ray discs"],
+    "correctAnswer": "To connect more controllers",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which PS2 controller feature was improved over the original DualShock and used in many PS2 games?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Pressure-sensitive buttons", "Adaptive triggers", "Rear touch pad", "Built-in speaker"],
+    "correctAnswer": "Pressure-sensitive buttons",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which controller shipped with the PlayStation 3 before the DualShock 3 became standard?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["SIXAXIS", "DualShock 2", "DualShock 4", "Access controller"],
+    "correctAnswer": "SIXAXIS",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "What does the name SIXAXIS refer to?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Six-way motion sensing", "Six USB ports", "Six speaker channels", "Six memory card slots"],
+    "correctAnswer": "Six-way motion sensing",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "What feature did the DualShock 3 add to the original SIXAXIS controller design?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Vibration feedback", "Touch screen controls", "A Share button", "A built-in camera"],
+    "correctAnswer": "Vibration feedback",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which wireless technology did the PS3's official wireless controllers use to connect to the console?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Bluetooth", "Infrared only", "Wi-Fi Direct", "NFC"],
+    "correctAnswer": "Bluetooth",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which cable connector was commonly used to charge and pair PS3 wireless controllers?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Mini-USB", "USB-C", "Lightning", "Micro-HDMI"],
+    "correctAnswer": "Mini-USB",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which PS3 camera worked together with the PlayStation Move motion controller?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["PlayStation Eye", "EyeToy", "HD Camera", "PS Vita Camera"],
+    "correctAnswer": "PlayStation Eye",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "What part of the PlayStation Move motion controller was tracked by a camera?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["The glowing sphere", "The USB cable", "The analog stick", "The speaker grille"],
+    "correctAnswer": "The glowing sphere",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which PlayStation Move accessory added an analog stick for navigation in compatible games?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Navigation controller", "Memory Card Adapter", "HD Camera", "Media Remote"],
+    "correctAnswer": "Navigation controller",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which feature does the PlayStation Move navigation controller not include?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Vibration feedback", "An analog stick", "A PS button", "Directional buttons"],
+    "correctAnswer": "Vibration feedback",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which official PlayStation accessory shaped like a rifle was designed for PlayStation Move shooting games?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Sharp Shooter", "PS VR2 Sense controller", "PlayStation Mouse", "Access controller"],
+    "correctAnswer": "Sharp Shooter",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "What is the standard controller for the PlayStation 4 called?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["DualShock 4", "DualSense", "SIXAXIS", "DualShock 2"],
+    "correctAnswer": "DualShock 4",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which button did the DualShock 4 introduce for capturing and sharing gameplay?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Share button", "Create button", "Select button", "Home button"],
+    "correctAnswer": "Share button",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which input feature sits in the center of the DualShock 4 controller?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Touch pad", "Rear touch pad", "UMD drive", "Memory Stick slot"],
+    "correctAnswer": "Touch pad",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which DualShock 4 feature glows in different colors and can be used for player identification?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Light bar", "Analog nub", "Disc tray", "Expansion bay"],
+    "correctAnswer": "Light bar",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which audio feature is built into the DualShock 4 controller?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Mono speaker", "Subwoofer", "Surround sound bar", "AM radio"],
+    "correctAnswer": "Mono speaker",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which connector on the DualShock 4 lets players plug in standard wired headphones?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["3.5 mm headset jack", "HDMI port", "Ethernet port", "Memory Stick slot"],
+    "correctAnswer": "3.5 mm headset jack",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which button combination puts a DualShock 4 into Bluetooth pairing mode?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Share + PS", "Options + R2", "L1 + R1", "Touch pad + Circle"],
+    "correctAnswer": "Share + PS",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which PS4 accessory was required for many original PlayStation VR tracking setups?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["PlayStation Camera", "PocketStation", "PSP GPS Receiver", "PS5 HD Camera"],
+    "correctAnswer": "PlayStation Camera",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which official PS VR controller was designed especially for compatible shooter games?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["PS VR Aim Controller", "DualShock 2", "PlayStation Mouse", "SIXAXIS"],
+    "correctAnswer": "PS VR Aim Controller",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which PlayStation controller replaced the DualShock name for the PS5 generation?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["DualSense", "DualShock 5", "SIXAXIS 2", "PS Move Plus"],
+    "correctAnswer": "DualSense",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which two feedback features are strongly associated with the DualSense wireless controller?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Haptic feedback and adaptive triggers", "Infrared rumble and NFC triggers", "Rear paddles and a trackball", "Pressure screen and UMD feedback"],
+    "correctAnswer": "Haptic feedback and adaptive triggers",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which communication feature is built directly into the DualSense controller?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Built-in microphone", "Built-in webcam", "Built-in printer", "Built-in GPS antenna"],
+    "correctAnswer": "Built-in microphone",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which DualSense button replaced the DualShock 4's Share button?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Create button", "Select button", "Capture trigger", "Start button"],
+    "correctAnswer": "Create button",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which port type is used on the DualSense wireless controller for wired connection and charging?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["USB-C", "Mini-USB", "FireWire", "Composite AV"],
+    "correctAnswer": "USB-C",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which premium PS5 controller includes back buttons and deeper customization options?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["DualSense Edge", "DualShock 3", "PlayStation Move Navigation Controller", "PocketStation"],
+    "correctAnswer": "DualSense Edge",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which DualSense Edge component can be replaced with a separately sold module?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Stick module", "OLED screen", "Disc drive", "Camera lens"],
+    "correctAnswer": "Stick module",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which PS5 controller kit is designed to make gaming more accessible for disabled players?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Access controller", "PocketStation", "PlayStation Mouse", "DualShock 2"],
+    "correctAnswer": "Access controller",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which PS5 accessory is a dedicated camera with dual lenses for 1080p capture?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["HD Camera", "EyeToy", "PlayStation Eye", "Go!Cam"],
+    "correctAnswer": "HD Camera",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which PlayStation handheld-style device streams games from a PS5 console and includes DualSense-style controls?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["PlayStation Portal", "PocketStation", "PS Vita Slim", "PSP Street"],
+    "correctAnswer": "PlayStation Portal",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "What screen size is officially associated with the PlayStation Portal Remote Player?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["8-inch LCD", "4-inch OLED", "12-inch plasma", "2-inch monochrome LCD"],
+    "correctAnswer": "8-inch LCD",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which controllers are used with PlayStation VR2?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["PlayStation VR2 Sense controllers", "DualShock 2 controllers", "PocketStation controllers", "PSP analog controllers"],
+    "correctAnswer": "PlayStation VR2 Sense controllers",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which PlayStation VR2 Sense controller feature detects finger placement without needing every button to be pressed?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Finger touch detection", "UMD reading", "Infrared printing", "Memory card scanning"],
+    "correctAnswer": "Finger touch detection",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "How many analog sticks did the original PSP have?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["One", "Two", "None", "Four"],
+    "correctAnswer": "One",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which official storage format was commonly used by PSP systems?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Memory Stick Duo", "PS Vita card", "CompactFlash", "GameCube Memory Card"],
+    "correctAnswer": "Memory Stick Duo",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which PSP accessory let users take photos and videos on compatible PSP models?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Go!Cam", "EyeToy", "HD Camera", "PlayStation Camera"],
+    "correctAnswer": "Go!Cam",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which PlayStation handheld was the first to include two analog sticks built into the system?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["PlayStation Vita", "PSP-1000", "PocketStation", "PSP Go"],
+    "correctAnswer": "PlayStation Vita",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which input surface is found on the back of the PlayStation Vita?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Rear touch pad", "UMD door", "Light bar", "Adaptive trigger"],
+    "correctAnswer": "Rear touch pad",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which cameras are built into the PlayStation Vita?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["Front and rear cameras", "Only a rear camera", "Only an infrared camera", "No cameras"],
+    "correctAnswer": "Front and rear cameras",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which storage accessory was made specifically for saving content on PS Vita systems?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["PlayStation Vita memory card", "PS2 8 MB Memory Card", "PocketStation only", "Memory Stick PRO-HG Duo only"],
+    "correctAnswer": "PlayStation Vita memory card",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which PlayStation Vita-based device let users play compatible Vita games on a TV using a controller?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "CONTROLLERS",
+    "options": ["PlayStation TV", "PlayStation Portal", "PSP Go", "PocketStation"],
+    "correctAnswer": "PlayStation TV",
+    "points": 10
+  }
+]

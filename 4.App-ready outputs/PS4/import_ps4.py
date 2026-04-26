@@ -8,7 +8,6 @@ CSV_FILE = Path(r"C:\development\Python\psdbc\4.App-ready outputs\PS4\app_ps4_al
 FINAL_COLUMNS = [
     "title_id",
     "game_title",
-    "platform_source",
     "region",
     "version",
     "url",
@@ -34,12 +33,11 @@ conn = sqlite3.connect(DB_FILE)
 cur = conn.cursor()
 
 cur.executescript("""
-                  DROP TABLE IF EXISTS PS4_GAMES;
+                  DROP TABLE IF EXISTS PS4;
 
-                  CREATE TABLE PS4_GAMES (
+                  CREATE TABLE PS4 (
                                              title_id TEXT,
                                              game_title TEXT,
-                                             platform_source TEXT,
                                              region TEXT,
                                              version TEXT,
                                              url TEXT,
@@ -49,15 +47,15 @@ cur.executescript("""
                                              content_type TEXT
                   );
 
-                  CREATE INDEX idx_ps4_games_title_id ON PS4_GAMES(title_id);
-                  CREATE INDEX idx_ps4_games_content_id ON PS4_GAMES(content_id);
-                  CREATE INDEX idx_ps4_games_content_type ON PS4_GAMES(content_type);
-                  CREATE INDEX idx_ps4_games_distribution ON PS4_GAMES(distribution);
+                  CREATE INDEX idx_ps4_title_id ON PS4(title_id);
+                  CREATE INDEX idx_ps4_content_id ON PS4(content_id);
+                  CREATE INDEX idx_ps4_content_type ON PS4(content_type);
+                  CREATE INDEX idx_ps4_distribution ON PS4(distribution);
                   """)
 
-df.to_sql("PS4_GAMES", conn, if_exists="append", index=False)
+df.to_sql("PS4", conn, if_exists="append", index=False)
 
-count = cur.execute("SELECT COUNT(*) FROM PS4_GAMES").fetchone()[0]
+count = cur.execute("SELECT COUNT(*) FROM PS4").fetchone()[0]
 print(f"Inserted rows: {count}")
 
 conn.commit()
