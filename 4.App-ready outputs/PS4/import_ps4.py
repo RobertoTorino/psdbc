@@ -36,15 +36,15 @@ cur.executescript("""
                   DROP TABLE IF EXISTS PS4;
 
                   CREATE TABLE PS4 (
-                                             title_id TEXT,
-                                             game_title TEXT,
-                                             region TEXT,
-                                             version TEXT,
-                                             url TEXT,
-                                             content_id TEXT,
-                                             platform TEXT,
-                                             distribution TEXT,
-                                             content_type TEXT
+                         title_id TEXT,
+                         game_title TEXT,
+                         region TEXT,
+                         version TEXT,
+                         url TEXT,
+                         content_id TEXT,
+                         platform TEXT,
+                         distribution TEXT,
+                         content_type TEXT
                   );
 
                   CREATE INDEX idx_ps4_title_id ON PS4(title_id);

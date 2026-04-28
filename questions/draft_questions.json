@@ -1,452 +1,1402 @@
 [
   {
     "id": "",
-    "text": "Which official controller was bundled with the PlayStation 2 at launch?",
+    "text": "In what year was the PlayStation 5 officially released worldwide?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["DualShock 2", "DualSense", "SIXAXIS", "DualShock 4"],
-    "correctAnswer": "DualShock 2",
+    "category": "PS5",
+    "options": [
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "correctAnswer": "2020",
     "points": 10
   },
   {
     "id": "",
-    "text": "What was the main new feature of the original DualShock controller compared with the original PlayStation controller?",
+    "text": "What are the two different models of the PS5 that were available at launch?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Vibration feedback", "A touch pad", "A built-in microphone", "Adaptive triggers"],
-    "correctAnswer": "Vibration feedback",
+    "category": "PS5",
+    "options": [
+      "Pro and Slim",
+      "Standard and Digital Edition",
+      "Base and Premium",
+      "Arcade and Elite"
+    ],
+    "correctAnswer": "Standard and Digital Edition",
     "points": 10
   },
   {
     "id": "",
-    "text": "Which PlayStation controller was the first official PlayStation controller with two analog sticks?",
+    "text": "What is the official name of the PS5's controller?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Dual Analog Controller", "DualShock 4", "SIXAXIS", "DualSense Edge"],
-    "correctAnswer": "Dual Analog Controller",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "What did the original PlayStation controller not have?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Analog sticks", "Triangle button", "Circle button", "D-pad"],
-    "correctAnswer": "Analog sticks",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "Which official PlayStation peripheral was intended for point-and-click games on the original PlayStation?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["PlayStation Mouse", "PlayStation Eye", "DualShock 3", "PS VR Aim Controller"],
-    "correctAnswer": "PlayStation Mouse",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "Which Japan-only PlayStation peripheral doubled as a memory card and a small handheld device?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["PocketStation", "PlayStation Portal", "PS Vita TV", "PSP Go"],
-    "correctAnswer": "PocketStation",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "What was the official PS2 memory card capacity most commonly associated with the console?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["8 MB", "128 KB", "1 GB", "32 GB"],
-    "correctAnswer": "8 MB",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "Which official PS2 camera allowed players to use body movement in compatible games?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["EyeToy", "PlayStation Eye", "HD Camera", "PlayStation Camera"],
-    "correctAnswer": "EyeToy",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "What was the purpose of the official PS2 Multitap accessory?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["To connect more controllers", "To add wireless internet", "To improve graphics", "To play Blu-ray discs"],
-    "correctAnswer": "To connect more controllers",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "Which PS2 controller feature was improved over the original DualShock and used in many PS2 games?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Pressure-sensitive buttons", "Adaptive triggers", "Rear touch pad", "Built-in speaker"],
-    "correctAnswer": "Pressure-sensitive buttons",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "Which controller shipped with the PlayStation 3 before the DualShock 3 became standard?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["SIXAXIS", "DualShock 2", "DualShock 4", "Access controller"],
-    "correctAnswer": "SIXAXIS",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "What does the name SIXAXIS refer to?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Six-way motion sensing", "Six USB ports", "Six speaker channels", "Six memory card slots"],
-    "correctAnswer": "Six-way motion sensing",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "What feature did the DualShock 3 add to the original SIXAXIS controller design?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Vibration feedback", "Touch screen controls", "A Share button", "A built-in camera"],
-    "correctAnswer": "Vibration feedback",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "Which wireless technology did the PS3's official wireless controllers use to connect to the console?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Bluetooth", "Infrared only", "Wi-Fi Direct", "NFC"],
-    "correctAnswer": "Bluetooth",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "Which cable connector was commonly used to charge and pair PS3 wireless controllers?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Mini-USB", "USB-C", "Lightning", "Micro-HDMI"],
-    "correctAnswer": "Mini-USB",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "Which PS3 camera worked together with the PlayStation Move motion controller?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["PlayStation Eye", "EyeToy", "HD Camera", "PS Vita Camera"],
-    "correctAnswer": "PlayStation Eye",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "What part of the PlayStation Move motion controller was tracked by a camera?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["The glowing sphere", "The USB cable", "The analog stick", "The speaker grille"],
-    "correctAnswer": "The glowing sphere",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "Which PlayStation Move accessory added an analog stick for navigation in compatible games?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Navigation controller", "Memory Card Adapter", "HD Camera", "Media Remote"],
-    "correctAnswer": "Navigation controller",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "Which feature does the PlayStation Move navigation controller not include?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Vibration feedback", "An analog stick", "A PS button", "Directional buttons"],
-    "correctAnswer": "Vibration feedback",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "Which official PlayStation accessory shaped like a rifle was designed for PlayStation Move shooting games?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Sharp Shooter", "PS VR2 Sense controller", "PlayStation Mouse", "Access controller"],
-    "correctAnswer": "Sharp Shooter",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "What is the standard controller for the PlayStation 4 called?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["DualShock 4", "DualSense", "SIXAXIS", "DualShock 2"],
-    "correctAnswer": "DualShock 4",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "Which button did the DualShock 4 introduce for capturing and sharing gameplay?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Share button", "Create button", "Select button", "Home button"],
-    "correctAnswer": "Share button",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "Which input feature sits in the center of the DualShock 4 controller?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Touch pad", "Rear touch pad", "UMD drive", "Memory Stick slot"],
-    "correctAnswer": "Touch pad",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "Which DualShock 4 feature glows in different colors and can be used for player identification?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Light bar", "Analog nub", "Disc tray", "Expansion bay"],
-    "correctAnswer": "Light bar",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "Which audio feature is built into the DualShock 4 controller?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Mono speaker", "Subwoofer", "Surround sound bar", "AM radio"],
-    "correctAnswer": "Mono speaker",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "Which connector on the DualShock 4 lets players plug in standard wired headphones?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["3.5 mm headset jack", "HDMI port", "Ethernet port", "Memory Stick slot"],
-    "correctAnswer": "3.5 mm headset jack",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "Which button combination puts a DualShock 4 into Bluetooth pairing mode?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Share + PS", "Options + R2", "L1 + R1", "Touch pad + Circle"],
-    "correctAnswer": "Share + PS",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "Which PS4 accessory was required for many original PlayStation VR tracking setups?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["PlayStation Camera", "PocketStation", "PSP GPS Receiver", "PS5 HD Camera"],
-    "correctAnswer": "PlayStation Camera",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "Which official PS VR controller was designed especially for compatible shooter games?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["PS VR Aim Controller", "DualShock 2", "PlayStation Mouse", "SIXAXIS"],
-    "correctAnswer": "PS VR Aim Controller",
-    "points": 10
-  },
-  {
-    "id": "",
-    "text": "Which PlayStation controller replaced the DualShock name for the PS5 generation?",
-    "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["DualSense", "DualShock 5", "SIXAXIS 2", "PS Move Plus"],
+    "category": "PS5",
+    "options": [
+      "DualShock 5",
+      "DualSense",
+      "PlayStation Pro Controller",
+      "OmniSense"
+    ],
     "correctAnswer": "DualSense",
     "points": 10
   },
   {
     "id": "",
-    "text": "Which two feedback features are strongly associated with the DualSense wireless controller?",
+    "text": "Which highly praised platformer comes pre-installed on every PS5 console?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Haptic feedback and adaptive triggers", "Infrared rumble and NFC triggers", "Rear paddles and a trackball", "Pressure screen and UMD feedback"],
-    "correctAnswer": "Haptic feedback and adaptive triggers",
+    "category": "PS5",
+    "options": [
+      "Sackboy: A Big Adventure",
+      "Astro's Playroom",
+      "Crash Bandicoot 4",
+      "Knack 3"
+    ],
+    "correctAnswer": "Astro's Playroom",
     "points": 10
   },
   {
     "id": "",
-    "text": "Which communication feature is built directly into the DualSense controller?",
+    "text": "What is the capacity of the PS5's custom internal SSD at launch?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Built-in microphone", "Built-in webcam", "Built-in printer", "Built-in GPS antenna"],
-    "correctAnswer": "Built-in microphone",
+    "category": "PS5",
+    "options": [
+      "500 GB",
+      "825 GB",
+      "1 TB",
+      "2 TB"
+    ],
+    "correctAnswer": "825 GB",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "What type of storage drive is required to officially expand the PS5's internal storage?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "SATA SSD",
+      "M.2 NVMe SSD",
+      "External HDD only",
+      "Proprietary Memory Card"
+    ],
+    "correctAnswer": "M.2 NVMe SSD",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "What is the name of Sony's proprietary 3D audio technology for the PS5?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Tempest 3D AudioTech",
+      "Dolby Atmos Pro",
+      "Sony Spatial Sound",
+      "Pulse Engine"
+    ],
+    "correctAnswer": "Tempest 3D AudioTech",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "What new button on the PS5 controller replaced the 'Share' button from the PS4?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Record",
+      "Broadcast",
+      "Create",
+      "Capture"
+    ],
+    "correctAnswer": "Create",
     "points": 10
   },
   {
     "id": "",
-    "text": "Which DualSense button replaced the DualShock 4's Share button?",
+    "text": "Which PS5 controller feature allows the L2 and R2 buttons to provide varying levels of physical resistance?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Create button", "Select button", "Capture trigger", "Start button"],
-    "correctAnswer": "Create button",
+    "category": "PS5",
+    "options": [
+      "Haptic Feedback",
+      "Adaptive Triggers",
+      "Tension Control",
+      "Dynamic Bumpers"
+    ],
+    "correctAnswer": "Adaptive Triggers",
     "points": 10
   },
   {
     "id": "",
-    "text": "Which port type is used on the DualSense wireless controller for wired connection and charging?",
+    "text": "Instead of traditional rumble motors, what technology does the DualSense use for vibration?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["USB-C", "Mini-USB", "FireWire", "Composite AV"],
-    "correctAnswer": "USB-C",
-    "points": 10
+    "category": "PS5",
+    "options": [
+      "Rotary motors",
+      "Voice-coil actuators (Haptic Feedback)",
+      "Ultrasonic emitters",
+      "Pneumatic pumps"
+    ],
+    "correctAnswer": "Voice-coil actuators (Haptic Feedback)",
+    "points": 20
   },
   {
     "id": "",
-    "text": "Which premium PS5 controller includes back buttons and deeper customization options?",
+    "text": "What is the name of the premium, highly customizable PS5 controller released by Sony?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["DualSense Edge", "DualShock 3", "PlayStation Move Navigation Controller", "PocketStation"],
+    "category": "PS5",
+    "options": [
+      "DualSense Pro",
+      "DualSense Elite",
+      "DualSense Edge",
+      "DualSense Ultra"
+    ],
     "correctAnswer": "DualSense Edge",
     "points": 10
   },
   {
     "id": "",
-    "text": "Which DualSense Edge component can be replaced with a separately sold module?",
+    "text": "What piece of hardware is built directly into the DualSense controller, eliminating the strict need for a headset?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Stick module", "OLED screen", "Disc drive", "Camera lens"],
-    "correctAnswer": "Stick module",
+    "category": "PS5",
+    "options": [
+      "A camera",
+      "A microphone array",
+      "A fingerprint scanner",
+      "A heart rate monitor"
+    ],
+    "correctAnswer": "A microphone array",
     "points": 10
   },
   {
     "id": "",
-    "text": "Which PS5 controller kit is designed to make gaming more accessible for disabled players?",
+    "text": "What UI feature allows PS5 players to jump straight into specific levels or multiplayer matches from the home screen?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Access controller", "PocketStation", "PlayStation Mouse", "DualShock 2"],
-    "correctAnswer": "Access controller",
-    "points": 10
+    "category": "PS5",
+    "options": [
+      "Quick Resume",
+      "Activities",
+      "Game Jump",
+      "Live Tiles"
+    ],
+    "correctAnswer": "Activities",
+    "points": 15
   },
   {
     "id": "",
-    "text": "Which PS5 accessory is a dedicated camera with dual lenses for 1080p capture?",
+    "text": "In what year did the PlayStation VR2 (PS VR2) headset release?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["HD Camera", "EyeToy", "PlayStation Eye", "Go!Cam"],
-    "correctAnswer": "HD Camera",
-    "points": 10
+    "category": "PS5",
+    "options": [
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "correctAnswer": "2023",
+    "points": 15
   },
   {
     "id": "",
-    "text": "Which PlayStation handheld-style device streams games from a PS5 console and includes DualSense-style controls?",
+    "text": "How does the PS VR2 connect to the PS5 console?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["PlayStation Portal", "PocketStation", "PS Vita Slim", "PSP Street"],
+    "category": "PS5",
+    "options": [
+      "Wirelessly",
+      "A breakout box with HDMI",
+      "A single USB-C cable",
+      "Two USB-A cables"
+    ],
+    "correctAnswer": "A single USB-C cable",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "What is the name of the dedicated remote play handheld device released for the PS5?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "PlayStation Vita 2",
+      "PlayStation Portal",
+      "PlayStation Stream",
+      "PlayStation Go"
+    ],
     "correctAnswer": "PlayStation Portal",
     "points": 10
   },
   {
     "id": "",
-    "text": "What screen size is officially associated with the PlayStation Portal Remote Player?",
+    "text": "What is the name of the highly adaptable accessibility controller kit designed for the PS5?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["8-inch LCD", "4-inch OLED", "12-inch plasma", "2-inch monochrome LCD"],
-    "correctAnswer": "8-inch LCD",
+    "category": "PS5",
+    "options": [
+      "Access Controller",
+      "Adaptive Pad",
+      "Barrier-Free Controller",
+      "PlayStation Omni"
+    ],
+    "correctAnswer": "Access Controller",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "Which remake developed by Bluepoint Games was a launch title for the PS5?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Shadow of the Colossus",
+      "Bloodborne",
+      "Demon's Souls",
+      "Dark Souls"
+    ],
+    "correctAnswer": "Demon's Souls",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "Who is the protagonist of Marvel's Spider-Man: Miles Morales?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Peter Parker",
+      "Miles Morales",
+      "Miguel O'Hara",
+      "Gwen Stacy"
+    ],
+    "correctAnswer": "Miles Morales",
+    "points": 5
+  },
+  {
+    "id": "",
+    "text": "In Marvel's Spider-Man: Miles Morales, what color is Miles' bio-electric venom power initially?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Blue",
+      "Red",
+      "Yellow/Orange",
+      "Green"
+    ],
+    "correctAnswer": "Yellow/Orange",
     "points": 10
   },
   {
     "id": "",
-    "text": "Which controllers are used with PlayStation VR2?",
+    "text": "Who is the main antagonist group in Marvel's Spider-Man: Miles Morales?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["PlayStation VR2 Sense controllers", "DualShock 2 controllers", "PocketStation controllers", "PSP analog controllers"],
-    "correctAnswer": "PlayStation VR2 Sense controllers",
+    "category": "PS5",
+    "options": [
+      "The Sinister Six",
+      "The Underground",
+      "A.I.M.",
+      "The Hand"
+    ],
+    "correctAnswer": "The Underground",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "Which PS5 exclusive features a rogue-like time loop on the hostile alien planet of Atropos?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Deathloop",
+      "Chorus",
+      "Returnal",
+      "Scars Above"
+    ],
+    "correctAnswer": "Returnal",
     "points": 10
   },
   {
     "id": "",
-    "text": "Which PlayStation VR2 Sense controller feature detects finger placement without needing every button to be pressed?",
+    "text": "What is the name of the protagonist in Returnal?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Finger touch detection", "UMD reading", "Infrared printing", "Memory card scanning"],
-    "correctAnswer": "Finger touch detection",
+    "category": "PS5",
+    "options": [
+      "Ripley",
+      "Selene",
+      "Samus",
+      "Jesse"
+    ],
+    "correctAnswer": "Selene",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "Which studio developed Returnal?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Insomniac Games",
+      "Naughty Dog",
+      "Housemarque",
+      "Guerrilla Games"
+    ],
+    "correctAnswer": "Housemarque",
+    "points": 20
+  },
+  {
+    "id": "",
+    "text": "What is the subtitle of the PS5 Ratchet & Clank game that utilizes the SSD for instant dimension hopping?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Up Your Arsenal",
+      "Tools of Destruction",
+      "Into the Nexus",
+      "Rift Apart"
+    ],
+    "correctAnswer": "Rift Apart",
     "points": 10
   },
   {
     "id": "",
-    "text": "How many analog sticks did the original PSP have?",
+    "text": "What is the name of the female Lombax introduced in Ratchet & Clank: Rift Apart?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["One", "Two", "None", "Four"],
-    "correctAnswer": "One",
+    "category": "PS5",
+    "options": [
+      "Angela",
+      "Sasha",
+      "Rivet",
+      "Talwyn"
+    ],
+    "correctAnswer": "Rivet",
     "points": 10
   },
   {
     "id": "",
-    "text": "Which official storage format was commonly used by PSP systems?",
+    "text": "In Ratchet & Clank: Rift Apart, what is the name of Rivet's small robotic companion?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Memory Stick Duo", "PS Vita card", "CompactFlash", "GameCube Memory Card"],
-    "correctAnswer": "Memory Stick Duo",
+    "category": "PS5",
+    "options": [
+      "Clank",
+      "Kit",
+      "Rusty",
+      "Bolt"
+    ],
+    "correctAnswer": "Kit",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "Which PS5 exclusive was developed by Arkane Studios and features assassins Colt and Julianna?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Dishonored 3",
+      "Prey 2",
+      "Deathloop",
+      "Redfall"
+    ],
+    "correctAnswer": "Deathloop",
     "points": 10
   },
   {
     "id": "",
-    "text": "Which PSP accessory let users take photos and videos on compatible PSP models?",
+    "text": "What is the name of the island where Deathloop takes place?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Go!Cam", "EyeToy", "HD Camera", "PlayStation Camera"],
-    "correctAnswer": "Go!Cam",
+    "category": "PS5",
+    "options": [
+      "Blackreef",
+      "Karnaca",
+      "Dunwall",
+      "Tsushima"
+    ],
+    "correctAnswer": "Blackreef",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "What is the title of the Horizon Zero Dawn sequel released on PS4 and PS5?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Horizon Forbidden West",
+      "Horizon Distant Shores",
+      "Horizon New Lands",
+      "Horizon Lost City"
+    ],
+    "correctAnswer": "Horizon Forbidden West",
     "points": 10
   },
   {
     "id": "",
-    "text": "Which PlayStation handheld was the first to include two analog sticks built into the system?",
+    "text": "What new tool does Aloy use in Horizon Forbidden West to glide from high places?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["PlayStation Vita", "PSP-1000", "PocketStation", "PSP Go"],
-    "correctAnswer": "PlayStation Vita",
+    "category": "PS5",
+    "options": [
+      "Paraglider",
+      "Shieldwing",
+      "Aero-cloak",
+      "Focus Glider"
+    ],
+    "correctAnswer": "Shieldwing",
     "points": 10
   },
   {
     "id": "",
-    "text": "Which input surface is found on the back of the PlayStation Vita?",
+    "text": "What is the name of the PS5-exclusive DLC expansion for Horizon Forbidden West?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Rear touch pad", "UMD door", "Light bar", "Adaptive trigger"],
-    "correctAnswer": "Rear touch pad",
+    "category": "PS5",
+    "options": [
+      "The Frozen Wilds",
+      "Burning Shores",
+      "The Daunt",
+      "Tenakth Rebellion"
+    ],
+    "correctAnswer": "Burning Shores",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "Which massive mammoth-like machine was heavily featured in the marketing for Horizon Forbidden West?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Thunderjaw",
+      "Slitherfang",
+      "Tremortusk",
+      "Tallneck"
+    ],
+    "correctAnswer": "Tremortusk",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "What is the name of the highly anticipated sequel to God of War (2018)?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "God of War: Valhalla",
+      "God of War: Fimbulwinter",
+      "God of War: Ragnarök",
+      "God of War: Odin's Fall"
+    ],
+    "correctAnswer": "God of War: Ragnarök",
     "points": 10
   },
   {
     "id": "",
-    "text": "Which cameras are built into the PlayStation Vita?",
+    "text": "In God of War Ragnarök, who is the Norse God of Thunder that Kratos confronts?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["Front and rear cameras", "Only a rear camera", "Only an infrared camera", "No cameras"],
-    "correctAnswer": "Front and rear cameras",
+    "category": "PS5",
+    "options": [
+      "Tyr",
+      "Odin",
+      "Thor",
+      "Baldur"
+    ],
+    "correctAnswer": "Thor",
     "points": 10
   },
   {
     "id": "",
-    "text": "Which storage accessory was made specifically for saving content on PS Vita systems?",
+    "text": "What is the name of the free roguelite DLC released for God of War Ragnarök?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["PlayStation Vita memory card", "PS2 8 MB Memory Card", "PocketStation only", "Memory Stick PRO-HG Duo only"],
-    "correctAnswer": "PlayStation Vita memory card",
+    "category": "PS5",
+    "options": [
+      "Niflheim",
+      "Muspelheim",
+      "Valhalla",
+      "Asgard"
+    ],
+    "correctAnswer": "Valhalla",
     "points": 10
   },
   {
     "id": "",
-    "text": "Which PlayStation Vita-based device let users play compatible Vita games on a TV using a controller?",
+    "text": "What is the name of the dog companion in Final Fantasy XVI?",
     "type": "MULTIPLE_CHOICE",
-    "category": "CONTROLLERS",
-    "options": ["PlayStation TV", "PlayStation Portal", "PSP Go", "PocketStation"],
-    "correctAnswer": "PlayStation TV",
+    "category": "PS5",
+    "options": [
+      "Red XIII",
+      "Torgal",
+      "Interceptor",
+      "Angelo"
+    ],
+    "correctAnswer": "Torgal",
     "points": 10
+  },
+  {
+    "id": "",
+    "text": "Who is the main protagonist of Final Fantasy XVI?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Noctis Lucis Caelum",
+      "Cloud Strife",
+      "Clive Rosfield",
+      "Squall Leonhart"
+    ],
+    "correctAnswer": "Clive Rosfield",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which Eikon of Fire does Clive transform into in Final Fantasy XVI?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Phoenix",
+      "Ifrit",
+      "Bahamut",
+      "Shiva"
+    ],
+    "correctAnswer": "Ifrit",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "What is the name of the second part of the Final Fantasy VII Remake project, released exclusively on PS5?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Final Fantasy VII Reunion",
+      "Final Fantasy VII Rebirth",
+      "Final Fantasy VII Resurrection",
+      "Final Fantasy VII Resolve"
+    ],
+    "correctAnswer": "Final Fantasy VII Rebirth",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "What is the name of the popular card game introduced in Final Fantasy VII Rebirth?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Triple Triad",
+      "Tetra Master",
+      "Queen's Blood",
+      "Gwent"
+    ],
+    "correctAnswer": "Queen's Blood",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "Which hit multiplayer co-op shooter took the PS5 and PC by storm in early 2024?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Destiny 3",
+      "Helldivers 2",
+      "Outriders",
+      "Anthem Next"
+    ],
+    "correctAnswer": "Helldivers 2",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "In Helldivers 2, what are the names of the two primary enemy factions at launch?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Covenant and Flood",
+      "Terminids and Automatons",
+      "Zerg and Protoss",
+      "Hive and Vex"
+    ],
+    "correctAnswer": "Terminids and Automatons",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "What managed democracy do the players fight for in Helldivers 2?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "The Federation",
+      "Super Earth",
+      "The Republic",
+      "United Colonies"
+    ],
+    "correctAnswer": "Super Earth",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "What are the two primary playable characters in Marvel's Spider-Man 2?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Peter and Gwen",
+      "Miles and Venom",
+      "Peter and Miles",
+      "Peter and Norman"
+    ],
+    "correctAnswer": "Peter and Miles",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which traversal mechanic was heavily promoted as a new feature in Marvel's Spider-Man 2?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Web-Shooters",
+      "Wall-Crawling",
+      "Web Wings (Gliding)",
+      "Teleportation"
+    ],
+    "correctAnswer": "Web Wings (Gliding)",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Who voices Venom in Marvel's Spider-Man 2?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Tom Hardy",
+      "Tony Todd",
+      "Troy Baker",
+      "Nolan North"
+    ],
+    "correctAnswer": "Tony Todd",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "Which action game by Shift Up stars a protagonist named Eve fighting the Naytiba?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Nier 3",
+      "Stellar Blade",
+      "Lies of P",
+      "Wo Long: Fallen Dynasty"
+    ],
+    "correctAnswer": "Stellar Blade",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which PS5 console exclusive developed by Team Ninja is an open-world samurai game set in the Bakumatsu era?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Ghost of Tsushima 2",
+      "Sekiro 2",
+      "Rise of the Ronin",
+      "Nioh 3"
+    ],
+    "correctAnswer": "Rise of the Ronin",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "What is the name of the protagonist in the PS5 game Forspoken?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Aloy",
+      "Frey Holland",
+      "Jesse Faden",
+      "Selene"
+    ],
+    "correctAnswer": "Frey Holland",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "In Forspoken, Frey has a sentient, magical piece of jewelry that talks to her. What does she call it?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Ring",
+      "Pendant",
+      "Cuff",
+      "Crown"
+    ],
+    "correctAnswer": "Cuff",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "What kind of animal do you play as in the indie hit 'Stray'?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Dog",
+      "Fox",
+      "Cat",
+      "Rat"
+    ],
+    "correctAnswer": "Cat",
+    "points": 5
+  },
+  {
+    "id": "",
+    "text": "In Stray, what is the designation of your small drone companion?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "B-12",
+      "R2-D2",
+      "Claptrap",
+      "Ghost"
+    ],
+    "correctAnswer": "B-12",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "Which PS5 launch window game has you collecting spirit companions called 'The Rot'?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Bugsnax",
+      "Kena: Bridge of Spirits",
+      "Sackboy: A Big Adventure",
+      "Concrete Genie"
+    ],
+    "correctAnswer": "Kena: Bridge of Spirits",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "What is the name of the terrifying villain in Sackboy: A Big Adventure?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "The Collector",
+      "Vex",
+      "Dr. Neo Cortex",
+      "Clockwerk"
+    ],
+    "correctAnswer": "Vex",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "Ghost of Tsushima Director's Cut on PS5 includes a new expansion. What island does Jin travel to?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Hokkaido",
+      "Iki Island",
+      "Okinawa",
+      "Kyushu"
+    ],
+    "correctAnswer": "Iki Island",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "Death Stranding Director's Cut on PS5 introduces a new facility for Sam to explore. What is it called?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "The Ruined Factory",
+      "The Distribution Center",
+      "The Chiral Lab",
+      "The Porter Hub"
+    ],
+    "correctAnswer": "The Ruined Factory",
+    "points": 20
+  },
+  {
+    "id": "",
+    "text": "What is the name of the roguelike survival mode introduced in The Last of Us Part II Remastered for PS5?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Factions",
+      "No Return",
+      "Grounded Mode",
+      "Infected Run"
+    ],
+    "correctAnswer": "No Return",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "Which PS5 racing simulator heavily features a mode called the 'GT Cafe'?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "F1 2022",
+      "Assetto Corsa Competizione",
+      "Gran Turismo 7",
+      "Dirt 5"
+    ],
+    "correctAnswer": "Gran Turismo 7",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "What is the name of the advanced, superhuman AI developed by Sony AI to race against players in Gran Turismo 7?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "GT Drive",
+      "Sophy",
+      "AutoPilot X",
+      "Drivatar"
+    ],
+    "correctAnswer": "Sophy",
+    "points": 20
+  },
+  {
+    "id": "",
+    "text": "In the PS5 game Pacific Drive, what is the primary mode of transportation and survival?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "A mech suit",
+      "A station wagon",
+      "A hovercraft",
+      "A bicycle"
+    ],
+    "correctAnswer": "A station wagon",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "What classic PS1 franchise received a multiplayer vehicular combat reboot as a PS Plus launch title in 2021?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Twisted Metal",
+      "Destruction AllStars",
+      "Vigilante 8",
+      "Rogue Trip"
+    ],
+    "correctAnswer": "Destruction AllStars",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "What catchy slogan was used to market Bugsnax, a PS5 launch title?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Gotta catch 'em all!",
+      "You are what you eat!",
+      "Snack attack!",
+      "It's buggin' out!"
+    ],
+    "correctAnswer": "You are what you eat!",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which horror remake uses the DualSense lightbar to indicate the player's health status (Green/Yellow/Red)?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Resident Evil 4",
+      "Dead Space",
+      "Silent Hill 2",
+      "The Last of Us Part I"
+    ],
+    "correctAnswer": "Resident Evil 4",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "What is the primary currency used in Demon's Souls to level up and buy items?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Blood Echoes",
+      "Runes",
+      "Souls",
+      "Gold"
+    ],
+    "correctAnswer": "Souls",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Guess the game from the dialogue: \"Death can have me when it earns me.\"",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Returnal",
+      "Demon's Souls",
+      "God of War Ragnarök",
+      "Ghost of Tsushima"
+    ],
+    "correctAnswer": "God of War Ragnarök",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "Guess the game from the dialogue: \"We're going to heal the world.\"",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Horizon Forbidden West",
+      "Marvel's Spider-Man 2",
+      "Final Fantasy VII Rebirth",
+      "Death Stranding"
+    ],
+    "correctAnswer": "Marvel's Spider-Man 2",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "Guess the game from the dialogue: \"How 'bout a nice cup of Liber-tea!\"",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Ratchet & Clank: Rift Apart",
+      "Helldivers 2",
+      "Returnal",
+      "Destruction AllStars"
+    ],
+    "correctAnswer": "Helldivers 2",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Guess the game from the dialogue: \"I was born on this planet... but I will not die here.\"",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Returnal",
+      "Forspoken",
+      "Horizon Forbidden West",
+      "Stellar Blade"
+    ],
+    "correctAnswer": "Returnal",
+    "points": 20
+  },
+  {
+    "id": "",
+    "text": "Guess the game from the dialogue: \"Come to me, Ifrit!\"",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Granblue Fantasy: Relink",
+      "Tales of Arise",
+      "Final Fantasy XVI",
+      "Forspoken"
+    ],
+    "correctAnswer": "Final Fantasy XVI",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Guess the game from the dialogue: \"It's time to break the loop.\"",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Returnal",
+      "Deathloop",
+      "Outer Wilds",
+      "Quantum Break"
+    ],
+    "correctAnswer": "Deathloop",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Guess the game from the dialogue: \"I'm not a Lombax, I'm... well, okay, I am a Lombax. I'm Rivet.\"",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Sackboy: A Big Adventure",
+      "Astro's Playroom",
+      "Ratchet & Clank: Rift Apart",
+      "Crash Bandicoot 4"
+    ],
+    "correctAnswer": "Ratchet & Clank: Rift Apart",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Guess the game from the dialogue: \"The only reason you're still alive is because I allow it.\"",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "God of War Ragnarök",
+      "Final Fantasy XVI",
+      "Demon's Souls",
+      "Rise of the Ronin"
+    ],
+    "correctAnswer": "Final Fantasy XVI",
+    "points": 20
+  },
+  {
+    "id": "",
+    "text": "Guess the game from the dialogue: \"You want a war? I'll give you a war.\"",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Horizon Forbidden West",
+      "Ghost of Tsushima",
+      "God of War Ragnarök",
+      "Helldivers 2"
+    ],
+    "correctAnswer": "Horizon Forbidden West",
+    "points": 20
+  },
+  {
+    "id": "",
+    "text": "Guess the game from the dialogue: \"Our home, our family... we will not let it end like this.\"",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Marvel's Spider-Man 2",
+      "Final Fantasy VII Rebirth",
+      "Avatar: Frontiers of Pandora",
+      "God of War Ragnarök"
+    ],
+    "correctAnswer": "Avatar: Frontiers of Pandora",
+    "points": 25
+  },
+  {
+    "id": "",
+    "text": "What physical feature distinguishes the PS5 'Slim' model from the launch PS5 model?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "A horizontal-only stand",
+      "Four separate cover panels instead of two",
+      "A built-in screen",
+      "A square shape"
+    ],
+    "correctAnswer": "Four separate cover panels instead of two",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "If a game on PS5 supports 120Hz output, what is the maximum framerate it can achieve?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "60 fps",
+      "120 fps",
+      "144 fps",
+      "240 fps"
+    ],
+    "correctAnswer": "120 fps",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "What does the PS5 system setting 'VRR' stand for?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Virtual Reality Rendering",
+      "Variable Refresh Rate",
+      "Video Resolution Restorer",
+      "Visual Ray-tracing Render"
+    ],
+    "correctAnswer": "Variable Refresh Rate",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "What is the name of the highest tier of the revamped PlayStation Plus service on PS5?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Essential",
+      "Extra",
+      "Premium / Deluxe",
+      "Ultimate"
+    ],
+    "correctAnswer": "Premium / Deluxe",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which PS5 exclusive features a detailed 'photo mode' where you can change the facial expressions of characters like Peter and Miles?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Ghost of Tsushima",
+      "The Last of Us Part I",
+      "Marvel's Spider-Man 2",
+      "Horizon Forbidden West"
+    ],
+    "correctAnswer": "Marvel's Spider-Man 2",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "In Astro's Playroom, what is the name of the level themed around the PS3?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Memory Meadow",
+      "SSD Speedway",
+      "Springy Spa",
+      "Cooling Springs"
+    ],
+    "correctAnswer": "Springy Spa",
+    "points": 20
+  },
+  {
+    "id": "",
+    "text": "In Gran Turismo 7, what is the primary mode where players collect cars and learn their history?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Career Mode",
+      "GT Campaign",
+      "Menu Books (GT Cafe)",
+      "License Center"
+    ],
+    "correctAnswer": "Menu Books (GT Cafe)",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "What weapon does Kratos acquire in the God of War Ragnarök DLC 'Valhalla'?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "The Blade of Olympus",
+      "Mjolnir",
+      "Gungnir",
+      "The Leviathan Axe"
+    ],
+    "correctAnswer": "The Blade of Olympus",
+    "points": 20
+  },
+  {
+    "id": "",
+    "text": "In Spider-Man 2, what neighborhood is added to the map that wasn't in the first game?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Harlem",
+      "Brooklyn",
+      "The Bronx",
+      "Staten Island"
+    ],
+    "correctAnswer": "Brooklyn",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "Which studio developed the PS5 multiplayer game 'Concord'?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Bungie",
+      "Firewalk Studios",
+      "Haven Studios",
+      "Arrowhead"
+    ],
+    "correctAnswer": "Firewalk Studios",
+    "points": 20
+  },
+  {
+    "id": "",
+    "text": "What is the name of the spaceship hub in Returnal?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "The Helios",
+      "The Normandy",
+      "The Ishimura",
+      "The Milano"
+    ],
+    "correctAnswer": "The Helios",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "In Final Fantasy XVI, what is the name of the blighted land that is spreading across Valisthea?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "The Scourge",
+      "The Blight",
+      "The Miasma",
+      "The Corruption"
+    ],
+    "correctAnswer": "The Blight",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "Which iconic PlayStation character makes a surprise cameo appearance at the end of Astro's Playroom?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Crash Bandicoot",
+      "Kratos",
+      "T-Rex Tech Demo",
+      "Polygon Man"
+    ],
+    "correctAnswer": "T-Rex Tech Demo",
+    "points": 20
+  },
+  {
+    "id": "",
+    "text": "What was the codename for the PS5 during its development?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Neo",
+      "Morpheus",
+      "Prospero",
+      "Orbis"
+    ],
+    "correctAnswer": "Prospero",
+    "points": 25
+  },
+  {
+    "id": "",
+    "text": "In Helldivers 2, what is the strategic map where players choose planets to liberate called?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "The War Table",
+      "The Galactic War",
+      "The Solar Map",
+      "The Liberation Front"
+    ],
+    "correctAnswer": "The Galactic War",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Guess the game from the dialogue: \"My friend... your legacy is safe with me.\"",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Final Fantasy VII Rebirth",
+      "Ghost of Tsushima",
+      "God of War Ragnarök",
+      "Horizon Forbidden West"
+    ],
+    "correctAnswer": "Final Fantasy VII Rebirth",
+    "points": 25
+  },
+  {
+    "id": "",
+    "text": "Guess the game from the dialogue: \"We do not hide. We do not fear. We fight!\"",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Helldivers 2",
+      "Rise of the Ronin",
+      "Stellar Blade",
+      "Demon's Souls"
+    ],
+    "correctAnswer": "Helldivers 2",
+    "points": 20
+  },
+  {
+    "id": "",
+    "text": "Guess the game from the dialogue: \"A true shinobi knows the difference between honor and victory.\"",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Sekiro",
+      "Ghost of Tsushima Director's Cut",
+      "Rise of the Ronin",
+      "Nioh 2"
+    ],
+    "correctAnswer": "Rise of the Ronin",
+    "points": 20
+  },
+  {
+    "id": "",
+    "text": "In Ratchet & Clank: Rift Apart, what is the name of the pirate stronghold planet?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Corson V",
+      "Sargasso",
+      "Ardolis",
+      "Savali"
+    ],
+    "correctAnswer": "Ardolis",
+    "points": 25
+  },
+  {
+    "id": "",
+    "text": "What graphical mode on the PS5 prioritizes resolution and graphical effects over a high frame rate?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Performance Mode",
+      "Fidelity / Quality Mode",
+      "Turbo Mode",
+      "Cinematic Mode"
+    ],
+    "correctAnswer": "Fidelity / Quality Mode",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Which PS5 game features a mode called 'Legends' that allows for co-op multiplayer?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Returnal",
+      "Ghost of Tsushima Director's Cut",
+      "Demon's Souls",
+      "Deathloop"
+    ],
+    "correctAnswer": "Ghost of Tsushima Director's Cut",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "What color is the LED light strip on the PS5 console when it is in Rest Mode?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Blue",
+      "White",
+      "Orange / Amber",
+      "Red"
+    ],
+    "correctAnswer": "Orange / Amber",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "What is the name of the PS5 system feature that provides in-game hints and video guides for PS Plus members?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Game Help",
+      "PlayStation Guide",
+      "Hint Master",
+      "Trophy Assist"
+    ],
+    "correctAnswer": "Game Help",
+    "points": 15
+  },
+  {
+    "id": "",
+    "text": "Which prominent gaming studio, known for Halo and Destiny, was acquired by PlayStation during the PS5 lifecycle?",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Insomniac",
+      "Bungie",
+      "Housemarque",
+      "Bluepoint"
+    ],
+    "correctAnswer": "Bungie",
+    "points": 10
+  },
+  {
+    "id": "",
+    "text": "Guess the game from the dialogue: \"I'm the hero of this story!\"",
+    "type": "MULTIPLE_CHOICE",
+    "category": "PS5",
+    "options": [
+      "Spider-Man 2",
+      "Forspoken",
+      "Final Fantasy XVI",
+      "Ratchet & Clank: Rift Apart"
+    ],
+    "correctAnswer": "Spider-Man 2",
+    "points": 25
   }
 ]

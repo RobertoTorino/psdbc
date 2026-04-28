@@ -36,15 +36,15 @@ cur.executescript("""
                   DROP TABLE IF EXISTS PS2;
 
                   CREATE TABLE PS2 (
-                                             title_id TEXT,
-                                             game_title TEXT,
-                                             region TEXT,
-                                             version TEXT,
-                                             url TEXT,
-                                             content_id TEXT,
-                                             platform TEXT,
-                                             distribution TEXT,
-                                             content_type TEXT
+                     title_id TEXT,
+                     game_title TEXT,
+                     region TEXT,
+                     version TEXT,
+                     url TEXT,
+                     content_id TEXT,
+                     platform TEXT,
+                     distribution TEXT,
+                     content_type TEXT
                   );
 
                   CREATE INDEX idx_ps2_title_id ON PS2(title_id);

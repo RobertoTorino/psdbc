@@ -3,12 +3,11 @@ import sqlite3
 import pandas as pd
 
 DB_FILE = Path(r"C:\development\Python\psdbc\_database\games.db")
-CSV_FILE = Path(r"C:\development\Python\psdbc\4.App-ready outputs\PS3\app_ps3_all_games.csv")
+CSV_FILE = Path(r"C:\development\Python\psdbc\4.App-ready outputs\PSV\app_psv_all_games.csv")
 
 FINAL_COLUMNS = [
     "title_id",
     "game_title",
-    "platform_source",
     "region",
     "version",
     "url",
@@ -34,30 +33,29 @@ conn = sqlite3.connect(DB_FILE)
 cur = conn.cursor()
 
 cur.executescript("""
-                  DROP TABLE IF EXISTS PS3_GAMES;
+                  DROP TABLE IF EXISTS PSV;
 
-                  CREATE TABLE PS3_GAMES (
-                                             title_id TEXT,
-                                             game_title TEXT,
-                                             platform_source TEXT,
-                                             region TEXT,
-                                             version TEXT,
-                                             url TEXT,
-                                             content_id TEXT,
-                                             platform TEXT,
-                                             distribution TEXT,
-                                             content_type TEXT
+                  CREATE TABLE PSV (
+                     title_id TEXT,
+                     game_title TEXT,
+                     region TEXT,
+                     version TEXT,
+                     url TEXT,
+                     content_id TEXT,
+                     platform TEXT,
+                     distribution TEXT,
+                     content_type TEXT
                   );
 
-                  CREATE INDEX idx_ps3_games_title_id ON PS3_GAMES(title_id);
-                  CREATE INDEX idx_ps3_games_content_id ON PS3_GAMES(content_id);
-                  CREATE INDEX idx_ps3_games_content_type ON PS3_GAMES(content_type);
-                  CREATE INDEX idx_ps3_games_distribution ON PS3_GAMES(distribution);
+                  CREATE INDEX idx_psv_title_id ON PSV(title_id);
+                  CREATE INDEX idx_psv_content_id ON PSV(content_id);
+                  CREATE INDEX idx_psv_content_type ON PSV(content_type);
+                  CREATE INDEX idx_psv_distribution ON PSV(distribution);
                   """)
 
-df.to_sql("PS3_GAMES", conn, if_exists="append", index=False)
+df.to_sql("PSV", conn, if_exists="append", index=False)
 
-count = cur.execute("SELECT COUNT(*) FROM PS3_GAMES").fetchone()[0]
+count = cur.execute("SELECT COUNT(*) FROM PSV").fetchone()[0]
 print(f"Inserted rows: {count}")
 
 conn.commit()

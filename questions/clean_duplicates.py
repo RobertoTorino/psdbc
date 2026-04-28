@@ -29,13 +29,13 @@ try:
         json.dump(cleaned_data, file, indent=2, ensure_ascii=False)
 
     print("-" * 30)
-    print("✅ Success! Your data has been cleaned based on ID/Question pairs.")
+    print("Success! Your data has been cleaned based on ID/Question pairs.")
     print(f"Original item count: {len(data)}")
     print(f"Cleaned item count:  {len(cleaned_data)}")
     print(f"Total duplicates removed: {len(data) - len(cleaned_data)}")
     print(f"Saved to: {output_file}")
 
 except FileNotFoundError:
-    print(f"❌ Error: Could not find '{input_file}'.")
+    print(f"Error: Could not find '{input_file}'.")
 except Exception as e:
-    print(f"❌ An unexpected error occurred: {e}")
+    print(f"An unexpected error occurred: {e}")

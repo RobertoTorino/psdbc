@@ -33,18 +33,18 @@ conn = sqlite3.connect(DB_FILE)
 cur = conn.cursor()
 
 cur.executescript("""
-                  DROP TABLE IF EXISTS PS5_GAMES;
+                  DROP TABLE IF EXISTS PS5;
 
                   CREATE TABLE PS5 (
-                                             title_id TEXT,
-                                             game_title TEXT,
-                                             region TEXT,
-                                             version TEXT,
-                                             url TEXT,
-                                             content_id TEXT,
-                                             platform TEXT,
-                                             distribution TEXT,
-                                             content_type TEXT
+                     title_id TEXT,
+                     game_title TEXT,
+                     region TEXT,
+                     version TEXT,
+                     url TEXT,
+                     content_id TEXT,
+                     platform TEXT,
+                     distribution TEXT,
+                     content_type TEXT
                   );
 
                   CREATE INDEX idx_ps5_title_id ON PS5(title_id);

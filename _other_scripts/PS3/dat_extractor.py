@@ -52,4 +52,4 @@ def xml_to_flat_csv(xml_input, csv_output):
                 del elem.getparent()[0]
 
 # Run the process
-xml_to_flat_csv('ps3_psn_dlc.xml', 'app_ps3_dlc.csv')
+xml_to_flat_csv('pkgi_games.xml', 'pkgi_games.csv')
