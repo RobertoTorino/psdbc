@@ -1,2 +1,5 @@
-Title ID,  Region, Name PKG,                            direct link, RAP, Content ID, Last Modification, Date Download, .RAP file, File Size, SHA256
-NPEB00113, EU,     Call of Duty Classic French Version, http://zeus.dl.playstation.net/cdn/EP0002/NPEB00113_00/SNhRkR6CwU5mHbsD6eeliocSFWu971vOE5MAMEtl59UKYDh6TQlPTgymBjkD1SK5JMEtdVWKm9AfxbUKNdHyeWovrXa9n48cKsv7r.pkg, 1763B2473C1553028847437992400021 EP0002-NPEB00113_00-CALLOFDUTYCLSCFR, 2018-02-17 01:59:45, 987927856
+Which title was released on the PSP?"
+
+
+
+i updated the icon so now i wan t the updated icon to show up a spreview, i explicitly used the same name

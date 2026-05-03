@@ -1,7 +1,7 @@
 import json
 from collections import Counter
 
-input_file = 'master_questions.json' # Adjust to your current filename
+input_file = 'questions.json' # Adjust to your current filename
 report_file = 'statistics_report.txt'
 
 print(f"Analyzing statistics for {input_file}...\n")
